@@ -6,7 +6,7 @@
                 "name": "img",
                 "attributes": {
                     "src": "https://cloud.githubusercontent.com/assets/3624786/4096117/04ef92b0-2fbd-11e4-8794-992db78f366c.png",
-                    "style": "width: 459px; height: 323px; max-height: none; max-width: none; position: absolute; z-index: 4; left: 259px; top: 86px;",
+                    "style": "width: 459px; height: 323px; max-height: none; max-width: none; position: absolute; z-index: 4; left: 259px; top: 6px;",
                     "class": "absolute-element"
                 }
             }]
@@ -14,7 +14,7 @@
             "name": "h2",
             "attributes": {
                 "class": "absolute-element",
-                "style": "position: absolute; width: 586px; height: 65px; z-index: 4; left: 217px; top: 37px;"
+                "style": "position: absolute; width: 586px; height: 65px; z-index: 4; left: 217px; top: 287px;"
             },
             "value": "Stop Starvation OR Open the Chakra for the Event Loop"
         }],
