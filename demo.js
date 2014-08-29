@@ -10,10 +10,10 @@ We made a few minor changes to showcase the proposed setImmediate API benefits.
    1) Run test in HTML5 Standards mode instead of Quirks mode.
    2) Added CSS unit descriptors for CSS compliance (and to eliminate error codepaths).
    3) Refactored callbacks to a single location to simplify learning about setImmediate.
-   4) Added concept of setImmedate to the callbacks.
+   4) Added concept of setImmediate to the callbacks.
    5) Only run one test at a time which removes observer effect from second test.
    6) Use CSS3 transforms which removes layout/formatting observer effect.
-   7) Implemeneted three hard coded tests for simplicity rather than dynamic values.
+   7) Implemented three hard coded tests for simplicity rather than dynamic values.
    8) Randomly generate during page load and then reuse the same array for all three tests.
    9) Changed the color scheme and styles of the test to match the IE TestDrive theme.
 
@@ -255,6 +255,7 @@ Sort.prototype.registerCallback = function () {
     else if (0 > this.interval_time) {
         // No Timer
         this.timer = function () { t.stepper(); };
+        this.timer();
     }
     else {
         this.timer = setTimeout(function () { t.stepper(); }, this.interval_time);
