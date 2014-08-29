@@ -1,69 +1,6 @@
 [{
     "steps": [
         [{
-            "name": "h2",
-            "value": "Shall We Node?"
-        }, {
-            "name": "iframe",
-            "attributes": {
-                "src": "//docs.google.com/a/liveperson.com/file/d/0B84kScR8zJcfcGdpWWVSSmxoaEE/preview",
-                "width": "640",
-                "height": "385",
-                "style": "width: 805px; height: 473px; max-height: none; max-width: none;",
-                "webkitallowfullscreen": true,
-                "mozallowfullscreen": true,
-                "allowfullscreen": true
-            }
-        }],
-        [{
-            "name": "h2",
-            "value": "Course Agenda"
-        }, {
-            "name": "p",
-            "value": "<br>"
-        }, {
-            "name": "ul",
-            "value": [{
-                "name": "li",
-                "attributes": {
-                    "class": "fragment",
-                    "data-fragment-index": "0"
-                },
-                "value": "Day 1: Node Basics & Overview, Standard Patterns & Modules"
-            }, {
-                "name": "li",
-                "attributes": {
-                    "class": "fragment",
-                    "data-fragment-index": "1"
-                },
-                "value": "Day 2: NPM, Working with Data - Streams & Pipes, Data Serving"
-            }, {
-                "name": "li",
-                "attributes": {
-                    "class": "fragment",
-                    "data-fragment-index": "2"
-                },
-                "value": "Day 3: Web Applications"
-            }, {
-                "name": "li",
-                "attributes": {
-                    "class": "fragment",
-                    "data-fragment-index": "3"
-                },
-                "value": "Day 4: LivePerson Modules, Deployment & Scaling"
-            }]
-        }],
-        [{
-            "name": "img",
-            "attributes": {
-                "src": "https://cloud.githubusercontent.com/assets/3624786/2687144/0b5d4846-c239-11e3-86e4-7f56d6908fd3.jpg",
-                "style": "width: 463px; height: 518px; max-height: none; max-width: none;"
-            }
-        }]
-    ]
-}, {
-    "steps": [
-        [{
             "name": "p",
             "value": [{
                 "name": "img",
@@ -79,7 +16,7 @@
                 "class": "absolute-element",
                 "style": "position: absolute; width: 586px; height: 65px; z-index: 4; left: 217px; top: 287px;"
             },
-            "value": "And than was Node"
+            "value": "Stop Starvation OR Open the CHAKRA for the Event Loop"
         }],
         [{
             "name": "h2",
