@@ -1,0 +1,2799 @@
+[{
+    "steps": [
+        [{
+            "name": "h2",
+            "value": "Shall We Node?"
+        }, {
+            "name": "iframe",
+            "attributes": {
+                "src": "//docs.google.com/a/liveperson.com/file/d/0B84kScR8zJcfcGdpWWVSSmxoaEE/preview",
+                "width": "640",
+                "height": "385",
+                "style": "width: 805px; height: 473px; max-height: none; max-width: none;",
+                "webkitallowfullscreen": true,
+                "mozallowfullscreen": true,
+                "allowfullscreen": true
+            }
+        }],
+        [{
+            "name": "h2",
+            "value": "Course Agenda"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "ul",
+            "value": [{
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "0"
+                },
+                "value": "Day 1: Node Basics & Overview, Standard Patterns & Modules"
+            }, {
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "1"
+                },
+                "value": "Day 2: NPM, Working with Data - Streams & Pipes, Data Serving"
+            }, {
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "2"
+                },
+                "value": "Day 3: Web Applications"
+            }, {
+                "name": "li",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "3"
+                },
+                "value": "Day 4: LivePerson Modules, Deployment & Scaling"
+            }]
+        }],
+        [{
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2687144/0b5d4846-c239-11e3-86e4-7f56d6908fd3.jpg",
+                "style": "width: 463px; height: 518px; max-height: none; max-width: none;"
+            }
+        }]
+    ]
+}, {
+    "steps": [
+        [{
+            "name": "p",
+            "value": [{
+                "name": "img",
+                "attributes": {
+                    "src": "https://cloud.githubusercontent.com/assets/3624786/2684659/2b1db378-c1bc-11e3-930e-6ba839d6cfd8.png",
+                    "style": "width: 359px; height: 123px; max-height: none; max-width: none; position: absolute; z-index: 4; left: 559px; top: 86px;",
+                    "class": "absolute-element"
+                }
+            }]
+        }, {
+            "name": "h2",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 586px; height: 65px; z-index: 4; left: 217px; top: 287px;"
+            },
+            "value": "And than was Node"
+        }],
+        [{
+            "name": "h2",
+            "value": "What is it?"
+        }, {
+            "name": "div",
+            "value": [{
+                "name": "ul",
+                "value": [{
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "0"
+                    },
+                    "value": "Platform for Creating Lightweight, Fast, Scalable, Event-Driven and Non-Blocking I/O Applications"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "1"
+                    },
+                    "value": "Created by Ryan Dahl in 2009"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "2"
+                    },
+                    "value": "Initially Solving Files Upload Process Problem (Flickr)"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "3"
+                    },
+                    "value": "Based on V8 - Google's Chrome Javascript Engine"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "4"
+                    },
+                    "value": "Implements the Reactor Pattern using A Single Thread Event Loop"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "5"
+                    },
+                    "value": "Inspired by Ruby's Mongrel Web Server"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "6"
+                    },
+                    "value": "Sponsored by Joyent"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "7"
+                    },
+                    "value": "Although it is quite young, Node is very popular. <a href=\"https://github.com/search?o=desc&amp;q=stars%3A%3E1&amp;s=stars&amp;type=Repositories\" target=\"_blank\">see</a>"
+                }]
+            }]
+        }, {
+            "name": "notes",
+            "value": "Dahl used to work for Joyent when he started to develop Node"
+        }],
+        [{
+            "name": "h2",
+            "value": "Under the Hood"
+        }, {
+            "name": "img",
+            "attributes": {
+                "class": "fragment",
+                "data-fragment-index": "0",
+                "src": "https://cloud.githubusercontent.com/assets/3624786/3058970/0d1f1e44-e1e6-11e3-97ad-ca440728a2dd.png",
+                "style": "position: absolute; width: 689px; height: 488px; z-index: 2; left: 120px; top: 90px; max-height: none; max-width: none;"
+            }
+        }, {
+            "name": "img",
+            "attributes": {
+                "class": "fragment",
+                "data-fragment-index": "1",
+                "src": "https://cloud.githubusercontent.com/assets/3624786/3058955/e05d2a68-e1e5-11e3-8fb5-6d78882fa2c8.png",
+                "style": "position: absolute; width: 689px; height: 488px; z-index: 3; left: 120px; top: 90px; max-height: none; max-width: none;"
+            }
+        }, {
+            "name": "img",
+            "attributes": {
+                "class": "fragment",
+                "data-fragment-index": "2",
+                "src": "https://cloud.githubusercontent.com/assets/3624786/3058926/b3ccf60e-e1e5-11e3-8585-0260660fa586.png",
+                "style": "position: absolute; width: 689px; height: 488px; z-index: 4; left: 120px; top: 90px; max-height: none; max-width: none;"
+            }
+        }, {
+            "name": "img",
+            "attributes": {
+                "class": "fragment",
+                "data-fragment-index": "3",
+                "src": "https://cloud.githubusercontent.com/assets/3624786/3058768/decb1af4-e1e3-11e3-950f-34a333d2edff.png",
+                "style": "position: absolute; width: 689px; height: 488px; z-index: 5; left: 120px; top: 90px; max-height: none; max-width: none;"
+            }
+        }, {
+            "name": "img",
+            "attributes": {
+                "class": "fragment",
+                "data-fragment-index": "4",
+                "src": "https://cloud.githubusercontent.com/assets/3624786/3058751/b40d9d3c-e1e3-11e3-9d12-a005e4cf7ea4.png",
+                "style": "position: absolute; width: 689px; height: 488px; z-index: 6; left: 120px; top: 90px; max-height: none; max-width: none;"
+            }
+        }, {
+            "name": "img",
+            "attributes": {
+                "class": "fragment",
+                "data-fragment-index": "5",
+                "src": "https://cloud.githubusercontent.com/assets/3624786/3058683/d9709b52-e1e2-11e3-960a-c1cd3f2b909f.png",
+                "style": "position: absolute; width: 689px; height: 488px; z-index: 7; left: 120px; top: 90px; max-height: none; max-width: none;"
+            }
+        }, {
+            "name": "notes",
+            "value": [
+                " * Google V8 (C++)",
+                " * libeio - asynchronous version of the POSIX API with POSIX threads",
+                " * libev - event loop",
+                " * c-ares - asynchronous DNS resolver",
+                " * OpenSSL - crypto",
+                " * evcom - stream socket library on top of libev",
+                " * http-parser - dealing with HTTP"
+            ]
+        }],
+        [{
+            "name": "h2",
+            "value": "Under The Hood (cont'd)"
+        }, {
+            "name": "img",
+            "attributes": {
+                "class": "fragment",
+                "data-fragment-index": "0",
+                "src": "https://cloud.githubusercontent.com/assets/3624786/3058683/d9709b52-e1e2-11e3-960a-c1cd3f2b909f.png",
+                "style": "position: absolute; width: 689px; height: 488px; z-index: 7; left: 120px; top: 90px; max-height: none; max-width: none;"
+            }
+        }, {
+            "name": "img",
+            "attributes": {
+                "class": "fragment",
+                "data-fragment-index": "1",
+                "src": "https://cloud.githubusercontent.com/assets/3624786/3059238/40685416-e1e9-11e3-8fd0-f3363185ede0.png",
+                "style": "position: absolute; width: 689px; height: 488px; z-index: 8; left: 120px; top: 90px; max-height: none; max-width: none;"
+            }
+        }, {
+            "name": "a",
+            "attributes": {
+                "class": "fragment",
+                "data-fragment-index": "1",
+                "style": "position: absolute; z-index: 10; left: 400px; top: 420px;",
+                "href": "https://github.com/joyent/libuv",
+                "target": "_blank"
+            },
+            "value": "libuv"
+        }, {
+            "name": "notes",
+            "value": [
+                "libev &amp; libeio ran only on Linux/Unix",
+                "",
+                "Windows kernel event notification and async I/O mechanisms is IOCP (Input/output completion port)",
+                "On Windows Async IO is implemented using IOCP - I/O Completion Ports",
+                "",
+                "libuv replaces libeio and libev",
+                "",
+                "In the node-v0.9.0 version of libuv, libev was removed"
+            ]
+        }],
+        [{
+            "name": "h3",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 536px; height: 47px; z-index: 4; left: 211px; top: 130px;"
+            },
+            "value": "Did you say OpenSSL?!?!"
+        }, {
+            "name": "h2",
+            "attributes": {
+                "class": "absolute-element fragment",
+                "data-fragment-index": "0",
+                "style": "position: absolute; width: 856px; height: 65px; z-index: 4; left: 58px; top: 264px;"
+            },
+            "value": "What about Heartbleed!?!?!?"
+        }, {
+            "name": "h1",
+            "attributes": {
+                "class": "absolute-element fragment",
+                "data-fragment-index": "1",
+                "style": "position: absolute; width: 896px; height: 115px; z-index: 4; left: 23px; top: 411px;"
+            },
+            "value": [{
+                "name": "a",
+                "attributes": {
+                    "href": "https://github.com/joyent/node/commit/28c6e42e",
+                    "target": "_blank"
+                },
+                "value": "No Worries Guys"
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                "Heartbleed was found in the heartbeat extention of OpenSSL",
+                "This extention is not supported on IIS servers and therefor had been disabled in Node core over a year ago",
+                "This means that server with Node version &gt; 0.10.10 does not suffer from heartbleed"
+            ]
+        }],
+        [{
+            "name": "h2",
+            "value": "Why Javascript?"
+        }, {
+            "name": "img",
+            "attributes": {
+                "class": "fragment",
+                "data-fragment-index": "0",
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2684720/061272b6-c1bd-11e3-8433-60fcb0e93472.jpg",
+                "style": "width: 659px; height: 496px; max-height: none; max-width: none;"
+            }
+        }],
+        [{
+            "name": "h2",
+            "value": "But Why Javascript?"
+        }, {
+            "name": "blockquate",
+            "attributes": {
+                "class": "fragment absolute-element",
+                "data-fragment-index": "0",
+                "style": "position: absolute; width: 966px; height: 241px; z-index: 4; left: -4px; top: 111px; max-height: none; max-width: none;"
+            },
+            "value": "\"JavaScript has certain characteristics that make it very different than other dynamic languages, namely that it has no concept of threads. Its model of concurrency is completely based around events.\" - Ryan Dahl"
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "fragment absolute-element",
+                "data-fragment-index": "1",
+                "style": "position: absolute; width: 563.6382623224729px; height: 274px; z-index: 4; left: 413px; top: 280px; max-height: none; max-width: none;"
+            },
+            "value": [{
+                "name": "img",
+                "attributes": {
+                    "src": "https://cloud.githubusercontent.com/assets/3624786/2684660/2b1e8dc0-c1bc-11e3-85bf-517da83a70de.jpeg",
+                    "style": "width: 385px; height: 253px; max-height: none; max-width: none;"
+                }
+            }]
+        }],
+        [{
+            "name": "h2",
+            "value": "Benefits of Using Javascript in the Server"
+        }, {
+            "name": "div",
+            "value": [{
+                "name": "ul",
+                "value": [{
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "0"
+                    },
+                    "value": "FullStack Developers"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "1"
+                    },
+                    "value": "Code Sharing"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "2"
+                    },
+                    "value": "JSON as Native"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "3"
+                    },
+                    "value": "NoSQL Javascript Interfaces"
+                }]
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                "Reuse developers @client side &amp; @server side (Javascript is the most popular programming language today)",
+                "",
+                "Ability to share code between client and server and get the ideal optimization",
+                "",
+                "Easily unifies the data formats (JSON is native in Javascript)",
+                "",
+                "NoSql databases have wide support for Javascript interfaces"
+            ]
+        }],
+        [{
+            "name": "h2",
+            "value": "Not a New Idea"
+        }, {
+            "name": "div",
+            "value": [{
+                "name": "ul",
+                "value": [{
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "0"
+                    },
+                    "value": "Netscape offered SSJS in 1996"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "1"
+                    },
+                    "value": "Rhino is also around since 1997"
+                }]
+            }]
+        }],
+        [{
+            "name": "h2",
+            "value": "So why didn't it fly than?"
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 919px; height: 230px; z-index: 4; left: 32px; top: 101px; max-height: none; max-width: none;"
+            },
+            "value": [{
+                "name": "ul",
+                "value": [{
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "0"
+                    },
+                    "value": "SSJS was a page template system (like JSP/ASP) to write data to the output stream"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "1"
+                    },
+                    "value": "Had all disadvantages of other page template systems + really slow JS engine"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "2"
+                    },
+                    "value": "Rhino is an engine which converts JS into java classes"
+                }]
+            }]
+        }, {
+            "name": "h2",
+            "attributes": {
+                "class": "fragment absolute-element",
+                "data-fragment-index": "3",
+                "style": "position: absolute; width: 316px; height: 65px; z-index: 4; left: 305px; top: 337px;"
+            },
+            "value": "And Today"
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 904px; height: 276px; z-index: 4; left: 28px; top: 411px; max-height: none; max-width: none;"
+            },
+            "value": [{
+                "name": "ul",
+                "value": [{
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment absolute-element",
+                        "data-fragment-index": "4"
+                    },
+                    "value": "Javascript engines are very <a href=\"http://bellard.org/jslinux/\" target=\"_blank\">fast</a>"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment absolute-element",
+                        "data-fragment-index": "5"
+                    },
+                    "value": "Javascript was designed to be event based"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment absolute-element",
+                        "data-fragment-index": "6"
+                    },
+                    "value": "Node leverages Javascript strength to create a convenient environment for working in the non-blocking, event-driven I/O paradigm"
+                }]
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                "Javascript was designed to be used in the browser so it is naturally good for event based programming",
+                "",
+                "jslinux demo:",
+                "  uname -a",
+                "  ls",
+                "  cat hello.c",
+                "  tcc -v -bench -o hello hello.c",
+                "  ./hello",
+                "  dmesg | more"
+            ]
+        }],
+        [{
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 873px; height: 145px; z-index: 4; left: 49px; top: 244px; max-height: none; max-width: none;"
+            },
+            "value": "Node is so successful that it is not alone"
+        }],
+        [{
+            "name": "h2",
+            "value": "Similar Environments"
+        }, {
+            "name": "div",
+            "value": [{
+                "name": "ul",
+                "value": [{
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "0"
+                    },
+                    "value": "EventMachine for Ruby"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "1"
+                    },
+                    "value": "Tornado and Twisted for Python"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "2"
+                    },
+                    "value": "Perl Object Environment for Perl"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "3"
+                    },
+                    "value": "Vert.x for Java, JavaScript, Groovy, Python and Ruby"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "4"
+                    },
+                    "value": "++"
+                }]
+            }]
+        }],
+        [{
+            "name": "h2",
+            "value": "Historical Summary"
+        }, {
+            "name": "div",
+            "value": [{
+                "name": "ul",
+                "value": [{
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "0"
+                    },
+                    "value": "2009 - Ryan Dahl, JSConf EU, Joyent"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "1"
+                    },
+                    "value": "2010 - v0.2 \"stable-ish\""
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "2"
+                    },
+                    "value": "2/2011 - v0.4 \"stuff works on linux\""
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "3"
+                    },
+                    "value": "11/2011 - v0.6 \"stuff works on windows\""
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "4"
+                    },
+                    "value": "6/2012 - v0.8 \"stuff works better\""
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "5"
+                    },
+                    "value": "3/2013 - v0.10 \"stuff works really really good\""
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "6"
+                    },
+                    "value": "today - v0.10.28 \"heaven :)\""
+                }]
+            }]
+        }]
+    ]
+}, {
+    "steps": [
+        [{
+            "name": "img",
+            "attributes": {
+                "class": "absolute-element",
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2685150/feb2ad8a-c1c4-11e3-9d3b-4a297a1dac34.jpg",
+                "style": "font-size: 65px; color: rgb(0, 0, 0); position: absolute; max-height: none; max-width: none; width: 312px; height: 465px; z-index: 4; left: 587px; top: 97px;"
+            }
+        }, {
+            "name": "h2",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 471px; height: 65px; z-index: 4; left: 83px; top: 294px;"
+            },
+            "value": "Is Node Better?"
+        }],
+        [{
+            "name": "h2",
+            "value": "Waiting..."
+        }, {
+            "name": "h3",
+            "attributes": {
+                "class": "fragment absolute-element",
+                "data-fragment-index": "0",
+                "style": "position: absolute; width: 966px; height: 40px; z-index: 4; left: -4px; top: 100px;"
+            },
+            "value": "Most of the traditional Servers spend a lot of time waiting for I/O operations"
+        }, {
+            "name": "div",
+            "attributes": {
+                "style": "position: absolute; width: 506px; height: 141px; z-index: 4; left: 432px; top: 215px; max-height: none; max-width: none;"
+            },
+            "value": [{
+                "name": "ul",
+                "value": [{
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "1"
+                    },
+                    "value": "Reading a file"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "2"
+                    },
+                    "value": "Accessing an external web service"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "3"
+                    },
+                    "value": "File uploading"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "4"
+                    },
+                    "value": "Database access"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "5"
+                    },
+                    "value": "++"
+                }]
+            }]
+        }, {
+            "name": "div",
+            "attributes": {
+                "style": "position: absolute; width: 966px; height: 61px; z-index: 4; left: -4px; top: 515px; max-height: none; max-width: none;"
+            },
+            "value": [{
+                "name": "ul",
+                "value": [{
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "6"
+                    },
+                    "value": "In memory operations are much faster"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "7"
+                    },
+                    "value": "Using the traditional thread-per-connection model is expensive"
+                }]
+            }]
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "fragment absolute-element",
+                "data-fragment-index": "6",
+                "style": "position: absolute; width: 442px; height: 320px; z-index: 4; left: -8px; top: 215px; max-height: none; max-width: none;"
+            },
+            "value": [{
+                "name": "img",
+                "attributes": {
+                    "src": "https://cloud.githubusercontent.com/assets/3624786/2685174/b36ecb28-c1c5-11e3-9c08-8da745c414fb.png",
+                    "style": "width: 403px; height: 285px; max-height: none; max-width: none;"
+                }
+            }]
+        }],
+        [{
+            "name": "img",
+            "attributes": {
+                "class": "absolute-element",
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2685182/b39084f2-c1c5-11e3-8bd3-0cde5ccb4067.jpg",
+                "style": "font-size: 65px; color: rgb(0, 0, 0); position: absolute; max-height: none; max-width: none; width: 712px; height: 565px; z-index: 4; left: 130px; top: 17px;"
+            }
+        }],
+        [{
+            "name": "img",
+            "attributes": {
+                "class": "absolute-element",
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2685181/b38f73b4-c1c5-11e3-8e21-5d657dd053cf.jpg",
+                "style": "font-size: 65px; color: rgb(0, 0, 0); position: absolute; max-height: none; max-width: none; width: 712px; height: 565px; z-index: 4; left: 130px; top: 17px;"
+            }
+        }],
+        [{
+            "name": "h2",
+            "value": "@PayPal"
+        }, {
+            "name": "img",
+            "attributes": {
+                "class": "absolute-element",
+                "src": "https://cloud.githubusercontent.com/assets/3624786/3074146/4d81972c-e327-11e3-94bb-9d53a69d67e9.png",
+                "style": "font-size: 65px; color: rgb(0, 0, 0); position: absolute; max-height: none; max-width: none; width: 712px; height: 565px; z-index: 4; left: 130px; top: 97px;"
+            }
+        }],
+        [{
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2686862/55e7f808-c224-11e3-91af-205e685eaa9a.jpg",
+                "class": "absolute-element",
+                "style": "position: absolute; max-height: none; max-width: none; width: 246px; height: 176px; z-index: 4; left: 2px; top: 194px;"
+            }
+        }, {
+            "name": "h3",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 760px; height: 140px; z-index: 4; left: 170px; top: 100px; max-height: none; max-width: none;"
+            },
+            "value": "But Node is not a silver-bullet new platform that will dominate the web development world."
+        }, {
+            "name": "h3",
+            "attributes": {
+                "class": "absolute-element fragment",
+                "data-fragment-index": "0",
+                "style": "position: absolute; width: 585px; height: 93px; z-index: 4; left: 224px; top: 344px; max-height: none; max-width: none;"
+            },
+            "value": "Instead, it's a platform that fills a particular need"
+        }],
+        [{
+            "name": "h3",
+            "attributes": {
+                "class": "absolute-element fragment",
+                "data-fragment-index": "0",
+                "style": "position: absolute; width: 573px; height: 47px; z-index: 4; left: 295px; top: 156px;"
+            },
+            "value": "Node is designed for DIRT"
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 241px; height: 325px; z-index: 4; left: 47px; top: 18px; max-height: none; max-width: none;"
+            },
+            "value": [{
+                "name": "img",
+                "attributes": {
+                    "src": "https://cloud.githubusercontent.com/assets/3624786/2686938/aba7d67c-c22a-11e3-91fc-f50bbae8323a.jpg"
+                }
+            }]
+        }, {
+            "name": "h3",
+            "attributes": {
+                "class": "absolute-element fragment",
+                "data-fragment-index": "1",
+                "style": "position: absolute; width: 702px; height: 47px; z-index: 4; left: 143px; top: 360px;"
+            },
+            "value": "DIRT - Data Intensive Real-Time"
+        }],
+        [{
+            "name": "p",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 966px; height: 92px; z-index: 4; left: -11px; top: 102px;"
+            },
+            "value": "Node really shines in building fast, scalable network &amp; I/O applications,"
+        }, {
+            "name": "p",
+            "attributes": {
+                "class": "absolute-element fragment",
+                "data-fragment-index": "0",
+                "style": "position: absolute; width: 966px; height: 92px; z-index: 4; left: -2px; top: 289px;"
+            },
+            "value": "as it's capable of handling a huge number of simultaneous connections with high throughput,"
+        }, {
+            "name": "p",
+            "attributes": {
+                "class": "absolute-element fragment",
+                "data-fragment-index": "1",
+                "style": "position: absolute; width: 501px; height: 46px; z-index: 4; left: 233px; top: 477px;"
+            },
+            "value": "which equates to high scalability"
+        }],
+        [{
+            "name": "h3",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 966px; height: 94px; z-index: 4; left: 1px; top: 272px;"
+            },
+            "value": "You definitely don't want to use Node for CPU-intensive operations"
+        }],
+        [{
+            "name": "h2",
+            "value": "So what can we do with It?"
+        }, {
+            "name": "div",
+            "value": "<br>"
+        }, {
+            "name": "div",
+            "value": [{
+                "name": "ul",
+                "value": [{
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "0"
+                    },
+                    "value": "Realtime Chat"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "1"
+                    },
+                    "value": "Realtime Monitoring"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "2"
+                    },
+                    "value": "Realtime Collaboration"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "3"
+                    },
+                    "value": "Realtime Stocks Trading Info"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "4"
+                    },
+                    "value": "Data Streaming (audio/video/games)"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "5"
+                    },
+                    "value": "Proxies / API Serving"
+                }]
+            }]
+        }],
+        [{
+            "name": "h2",
+            "value": "What shouldn't we?"
+        }, {
+            "name": "div",
+            "value": "<br>"
+        }, {
+            "name": "div",
+            "value": [{
+                "name": "ul",
+                "value": [{
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "0"
+                    },
+                    "value": "CPU / Computation intensive operations"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "1"
+                    },
+                    "value": "Blocking operations"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "2"
+                    },
+                    "value": "Long running iterations"
+                }]
+            }]
+        }],
+        [{
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2685173/b36e8456-c1c5-11e3-9d63-cf90e71545a4.png",
+                "class": "absolute-element",
+                "style": "position: absolute; max-height: none; max-width: none; width: 867px; height: 394px; z-index: 4; left: 40px; top: 10px;"
+            }
+        }, {
+            "name": "h3",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 966px; height: 94px; z-index: 4; left: -2px; top: 447px;"
+            },
+            "value": "A good example for a DIRTy application written with Node is <a href=\"https://browserling.com/\" target=\"_blank\">Browserling</a>"
+        }]
+    ]
+}, {
+    "steps": [
+        [{
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2687139/e7f9d7e4-c237-11e3-96cc-2f324e8ef61c.jpg",
+                "class": "absolute-element",
+                "style": "position: absolute; max-height: none; max-width: none; width: 587px; height: 294px; z-index: 4; left: 310px; top: 327px;"
+            }
+        }, {
+            "name": "h2",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 443px; height: 65px; z-index: 4; left: 118px; top: 214px;"
+            },
+            "value": "Reactor Model"
+        }],
+        [{
+            "name": "h2",
+            "value": "I/O is Expensive"
+        }, {
+            "name": "div",
+            "value": "<br>"
+        }, {
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2687159/e161edf6-c23a-11e3-8ffa-c68c815451ca.png"
+            }
+        }],
+        [{
+            "name": "h2",
+            "value": "Possible ways to deal with I/O"
+        }, {
+            "name": "div",
+            "value": "<br>"
+        }, {
+            "name": "div",
+            "value": [{
+                "name": "ul",
+                "value": [{
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "0"
+                    },
+                    "value": "Synchronous"
+                }, {
+                    "name": "ul",
+                    "value": [{
+                        "name": "li",
+                        "attributes": {
+                            "class": "fragment",
+                            "data-fragment-index": "1"
+                        },
+                        "value": "Pros: Simple"
+                    }, {
+                        "name": "li",
+                        "attributes": {
+                            "class": "fragment",
+                            "data-fragment-index": "2"
+                        },
+                        "value": "Cons: One request can hold up all others"
+                    }]
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "3"
+                    },
+                    "value": "Fork"
+                }, {
+                    "name": "ul",
+                    "value": [{
+                        "name": "li",
+                        "attributes": {
+                            "class": "fragment",
+                            "data-fragment-index": "4"
+                        },
+                        "value": "Pros: Easy"
+                    }, {
+                        "name": "li",
+                        "attributes": {
+                            "class": "fragment",
+                            "data-fragment-index": "5"
+                        },
+                        "value": "Cons: Does not scale well"
+                    }]
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "6"
+                    },
+                    "value": "Threads"
+                }, {
+                    "name": "ul",
+                    "value": [{
+                        "name": "li",
+                        "attributes": {
+                            "class": "fragment",
+                            "data-fragment-index": "7"
+                        },
+                        "value": "Pros: Easy and more kernel friendly (than fork)"
+                    }, {
+                        "name": "li",
+                        "attributes": {
+                            "class": "fragment",
+                            "data-fragment-index": "8"
+                        },
+                        "value": "Cons: Gets complicated fast, concurrency issues and reliability hazards (race conditions &amp; Mutual exclusion &amp; dead locks)"
+                    }]
+                }]
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                "Synchronous - One at a time, first come first serve",
+                "",
+                "Fork - Create a new process to handle each request",
+                "",
+                "Threads - Start a new thread to handle each request"
+            ]
+        }],
+        [{
+            "name": "h3",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 820px; height: 141px; z-index: 4; left: 65px; top: 239px; max-height: none; max-width: none;"
+            },
+            "value": "Fork &amp; Threads are memory expensive because threads and processes carry a heavy memory cost"
+        }],
+        [{
+            "name": "h2",
+            "value": [{
+                "name": "img",
+                "attributes": {
+                    "src": "https://cloud.githubusercontent.com/assets/3624786/2687065/373c4dc4-c232-11e3-896a-0fd5c22c8e71.jpeg",
+                    "style": "width: 827px; height: 482px; max-height: none; max-width: none;"
+                }
+            }]
+        }],
+        [{
+            "name": "h2",
+            "value": "Solution:"
+        }, {
+            "name": "div",
+            "value": "<br>"
+        }, {
+            "name": "h2",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 966px; height: 129px; z-index: 4; left: 3px; top: 253px;"
+            },
+            "value": "Reactor Pattern based on a single thread"
+        }],
+        [{
+            "name": "h2",
+            "attributes": {
+                "class": "fragment",
+                "data-fragment-index": "0"
+            },
+            "value": "Reactor Pattern"
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 312px; height: 385px; z-index: 4; left: 6px; top: 137px; max-height: none; max-width: none;"
+            },
+            "value": [{
+                "name": "img",
+                "attributes": {
+                    "src": "https://cloud.githubusercontent.com/assets/3624786/2687063/3730ffdc-c232-11e3-83d4-ae04c3f0f490.PNG"
+                }
+            }]
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 627px; height: 384px; z-index: 4; left: 305px; top: 137px; max-height: none; max-width: none;"
+            },
+            "value": [{
+                "name": "ul",
+                "value": [{
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "0"
+                    },
+                    "value": "Defined by <a href=\"http://en.wikipedia.org/wiki/Douglas_C._Schmidt\" target=\"_blank\">Doug C. Schmidt</a> in 1995"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "1"
+                    },
+                    "value": "Pattern for creating scalable network servers"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "2"
+                    },
+                    "value": "Alternative for thread-per-connection model"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "3"
+                    },
+                    "value": "Usually implemented using a single threaded event loop which dispatches events on handles to events handlers"
+                }]
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                "Doug Schmidt is a computer scientist and author in the fields of object-oriented programming, distributed computing and design patterns",
+                "A Proffessor @ vanderbilt University &amp; @ University of California",
+                "You can also find him at Coursera"
+            ]
+        }],
+        [{
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 740px; height: 460px; z-index: 4; left: 90px; top: 88px; max-height: none; max-width: none;"
+            },
+            "value": [{
+                "name": "img",
+                "attributes": {
+                    "src": "https://cloud.githubusercontent.com/assets/3624786/3059752/7030d5be-e1ef-11e3-8361-3db60f00b651.png",
+                    "style": "width: 100%; height: 100%;"
+                }
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                "Handles - identifies resources such as network connections, open files, and synchronization objects",
+                "",
+                "Reactor - defines an interface for registering, removing, and dispatching Event Handler objects",
+                "",
+                "Event Handler - specifies an interface used by the Reactor to dispatch callback methods",
+                "",
+                "Concrete Event Handler - implements the customized callback method(s)",
+                "",
+                "An implementation of the Reactor interface provides a set of application-independent event demultiplexing and dispatching mechanisms.",
+                "These mechanisms dispatch application-specific Event Handler in response to events occurring on one or more Handles."
+            ]
+        }],
+        [{
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 740px; height: 460px; z-index: 4; left: 90px; top: 88px; max-height: none; max-width: none;"
+            },
+            "value": [{
+                "name": "img",
+                "attributes": {
+                    "src": "https://cloud.githubusercontent.com/assets/3624786/2687066/3740db46-c232-11e3-8b64-235d3cc52beb.png",
+                    "style": "width: 100%; height: 100%;"
+                }
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                ""
+            ]
+        }],
+        [{
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 740px; height: 460px; z-index: 4; left: 90px; top: 88px; max-height: none; max-width: none;"
+            },
+            "value": [{
+                "name": "img",
+                "attributes": {
+                    "src": "https://cloud.githubusercontent.com/assets/3624786/2687067/37447062-c232-11e3-90ca-6c1164ba28a7.png",
+                    "style": "width: 100%; height: 100%;"
+                }
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                ""
+            ]
+        }],
+        [{
+            "name": "h2",
+            "value": "Benefits"
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 868px; height: 505px; z-index: 4; left: 51px; top: 127px; max-height: none; max-width: none;"
+            },
+            "value": [{
+                "name": "ul",
+                "value": [{
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "0"
+                    },
+                    "value": "SoC - event handlers can be separated from low level concerns"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "1"
+                    },
+                    "value": "Improve modularity, reusability, and configurability of event-driven applications"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "2"
+                    },
+                    "value": "Improves application portability"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "3"
+                    },
+                    "value": "Efficiant - No threads creation and context switching"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "4"
+                    },
+                    "value": "Simplified concurrency - single threaded, completely avoids threads reliability hazards"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "5"
+                    },
+                    "value": "One Stack"
+                }]
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                "No race conditions &amp; Mutual exclusion &amp; dead locks"
+            ]
+        }],
+        [{
+            "name": "h2",
+            "value": "Drawbacks"
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 935px; height: 138px; z-index: 4; left: 9px; top: 166px; max-height: none; max-width: none;"
+            },
+            "value": [{
+                "name": "ul",
+                "value": [{
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "0"
+                    },
+                    "value": "No blocking"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "1"
+                    },
+                    "value": "Cannot take too much time - turns must finish very quickly"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "2"
+                    },
+                    "value": "Difficult to understand (debug) - inverted flow of control"
+                }]
+            }]
+        }],
+        [{
+            "name": "h2",
+            "value": "But What about Long Running tasks?"
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 918px; height: 430px; z-index: 4; left: 16px; top: 156px; max-height: none; max-width: none;"
+            },
+            "value": [{
+                "name": "ul",
+                "value": [{
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "0",
+                        "style": "width: 800px;"
+                    },
+                    "value": "Eteration (coined by Doug crockford)"
+                }]
+            }, {
+                "name": "div",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "1",
+                    "style": "text-align: left;"
+                },
+                "value": [{
+                    "name": "iframe",
+                    "attributes": {
+                        "src": "//itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=..4.reactor-model.eteration.js",
+                        "style": "width: 916px; height: 302px; max-height: none; max-width: none;"
+                    }
+                }]
+            }]
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 752px; height: 46px; z-index: 4; left: 17px; top: 605px;"
+            },
+            "value": [{
+                "name": "ul",
+                "value": [{
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "2",
+                        "style": "width: 660px;"
+                    },
+                    "value": "Workers"
+                }]
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                "Eteration (coined by Doug crockford) - multiple turns for long tasks, when each turn calls the next one using a callback passed to a defer execution",
+                "",
+                "Workers - move the task to a separate process"
+            ]
+        }],
+        [{
+            "name": "h3",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 771px; height: 181px; z-index: 4; left: 102px; top: 217px; max-height: none; max-width: none;"
+            },
+            "value": "Javascript programmers are already familiar with the event loop concepts and flow and knows how to code in such environment"
+        }]
+    ]
+}, {
+    "steps": [
+        [{
+            "name": "h2",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 851px; height: 65px; z-index: 4; left: 35px; top: 163px;"
+            },
+            "value": "Node Versions Management"
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 418px; height: 419px; z-index: 4; left: 495px; top: 255px;"
+            },
+            "value": [{
+                "name": "img",
+                "attributes": {
+                    "src": "https://cloud.githubusercontent.com/assets/3624786/2711681/7262859e-c4d0-11e3-99e3-1911ad75b1e2.jpg",
+                    "style": "width: 378px; height: 378px; max-height: none; max-width: none;"
+                }
+            }]
+        }],
+        [{
+            "name": "h2",
+            "value": "Node Versions"
+        }, {
+            "name": "div",
+            "value": [{
+                "name": "ul",
+                "value": [{
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "0"
+                    },
+                    "value": "Versions of Node are being released rapidly"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "1"
+                    },
+                    "value": "Two main versions which are interesting for us:"
+                }, {
+                    "name": "ul",
+                    "value": [{
+                        "name": "li",
+                        "attributes": {
+                            "class": "fragment",
+                            "data-fragment-index": "2"
+                        },
+                        "value": "The Stable (currently 0.10.28)"
+                    }, {
+                        "name": "li",
+                        "attributes": {
+                            "class": "fragment",
+                            "data-fragment-index": "3"
+                        },
+                        "value": "The Latest - with all new features (currently 0.11.13)"
+                    }]
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "4"
+                    },
+                    "value": "We want to switch between versions of Node without having to uninstall and re-install"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "5"
+                    },
+                    "value": "Couple of alternative solutions"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "6"
+                    },
+                    "value": "n || nvm for OSX/Linux, nodist || nvmw for Windows"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "7"
+                    },
+                    "value": "We will be working with n || nodist"
+                }]
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                "While all of the above achieve the same goal,",
+                "nvm &amp;&amp; nvmw will update your path and",
+                "n &amp;&amp; nodist, will move your node files always to the same path, so you'll always know that your current executable lives there"
+            ]
+        }],
+        [{
+            "name": "h2",
+            "value": "n || nodist"
+        }, {
+            "name": "iframe",
+            "attributes": {
+                "src": "//itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=..5.node-version-management.commands.sh",
+                "style": "width: 918px; height: 681px; max-height: none; max-width: none;"
+            }
+        }]
+    ]
+}, {
+    "steps": [
+        [{
+            "name": "h2",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 806px; height: 97px; z-index: 4; left: 74px; top: 248px; max-height: none; max-width: none;"
+            },
+            "value": "Node Language Additions"
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 688px; height: 222px; z-index: 4; left: 260px; top: 357px; max-height: none; max-width: none;"
+            },
+            "value": [{
+                "name": "img",
+                "attributes": {
+                    "src": "https://cloud.githubusercontent.com/assets/3624786/2711947/47ea9fbe-c4d4-11e3-9f7b-a64f48dd3a12.jpg",
+                    "style": "width: 654px; height: 208px; max-height: none; max-width: none;"
+                }
+            }]
+        }],
+        [{
+            "name": "h2",
+            "value": "REPL"
+        }, {
+            "name": "div",
+            "value": "<br>"
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 851px; height: 184px; z-index: 4; left: 61px; top: 166px;"
+            },
+            "value": [{
+                "name": "ul",
+                "value": [{
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "0"
+                    },
+                    "value": "REPL stands for Read-Eval-Print-Loop"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "1"
+                    },
+                    "value": "It is a utility included with Node"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "2"
+                    },
+                    "value": "Works quite similar to the browser debug console"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "3"
+                    },
+                    "value": "Can be invoked by typing node on the command line"
+                }]
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                "console.log(\"hello\");",
+                "function add(a, b) {",
+                "  return a + b;",
+                "}",
+                "console.log(add(3, 4));"
+            ]
+        }],
+        [{
+            "name": "h2",
+            "value": "Language Additions"
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 811px; height: 276px; z-index: 4; left: 75px; top: 166px;"
+            },
+            "value": [{
+                "name": "ul",
+                "value": [{
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "0"
+                    },
+                    "value": "The same V8 is used for Node and Chrome"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "1"
+                    },
+                    "value": "There are some differences though"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "2"
+                    },
+                    "value": "window, location, and document are not available"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "3"
+                    },
+                    "value": "There is a global object"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "4"
+                    },
+                    "value": "There is a require function for pulling resources"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "5"
+                    },
+                    "value": "There is module and process objects"
+                }]
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                "console.log(window);",
+                "console.log(document);",
+                "console.log(location);",
+                "console.log(global);",
+                "course = \"Lets Node\";",
+                "console.log(global.course);"
+            ]
+        }]
+    ]
+}, {
+    "steps": [
+        [{
+            "name": "h2",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 679px; height: 65px; z-index: 4; left: 134px; top: 237px;"
+            },
+            "value": "Node Callback Pattern"
+        }, {
+            "name": "div",
+            "value": "<br>"
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 547px; height: 341px; z-index: 4; left: 383px; top: 340px;"
+            },
+            "value": [{
+                "name": "img",
+                "attributes": {
+                    "src": "https://cloud.githubusercontent.com/assets/3624786/2712218/ede33cde-c4d7-11e3-95b5-9b71f1b27eda.jpg"
+                }
+            }]
+        }],
+        [{
+            "name": "h3",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 966px; height: 141px; z-index: 4; left: 3px; top: 225px;"
+            },
+            "value": "Asynchronous programming does not use function return values but the continuation-passing style (CPS)"
+        }],
+        [{
+            "name": "blockquote",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 903px; height: 181px; z-index: 4; left: 35px; top: 219px; max-height: none; max-width: none;"
+            },
+            "value": "\"Continuation-passing style (CPS) is a style of programming in which control is passed explicitly in the form of a continuation. (...)\""
+        }],
+        [{
+            "name": "h3",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 966px; height: 141px; z-index: 4; left: -10px; top: 235px;"
+            },
+            "value": "functions invokes a callback"
+        }],
+        [{
+            "name": "h2",
+            "value": "We all know Callbacks"
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 869px; height: 421px; z-index: 4; left: 39px; top: 148px; max-height: none; max-width: none;"
+            },
+            "value": [{
+                "name": "ul",
+                "value": [{
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "0"
+                    },
+                    "value": "Callbacks (also known as higher-order functions) are derived from the functional programming paradigm"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "1"
+                    },
+                    "value": "Most widely used functional programming technique in JavaScript"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "2"
+                    },
+                    "value": "Callbacks are possible in Javascript since functions are first-class objects"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "3"
+                    },
+                    "value": "Callbacks are also widely used in node programming"
+                }]
+            }]
+        }],
+        [{
+            "name": "h2",
+            "value": "Node Callbacks"
+        }, {
+            "name": "iframe",
+            "attributes": {
+                "src": "//itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=..7.callback-pattern.node-callbacks.js",
+                "style": "width: 916px; height: 405px; max-height: none; max-width: none;"
+            }
+        }, {
+            "name": "div",
+            "value": [{
+                "name": "ul",
+                "value": [{
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "0"
+                    },
+                    "value": "The first argument is an error object"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "1"
+                    },
+                    "value": "first argument should be null if no error occurred"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "2"
+                    },
+                    "value": "The last argument is the callback function"
+                }]
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                "Node expects almost all callback functions to accept an Error object as the first argument",
+                "A callback function as an argument, should be the last argument",
+                "  var dns;",
+                "  dns.l;",
+                "  var fs;",
+                "  fs.rf;"
+            ]
+        }]
+    ]
+}, {
+    "steps": [
+        [{
+            "name": "h2",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 834px; height: 65px; z-index: 4; left: 52px; top: 148px;"
+            },
+            "value": "Node Event Emitter Pattern"
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 486px; height: 457px; z-index: 4; left: 416px; top: 222px;"
+            },
+            "value": [{
+                "name": "img",
+                "attributes": {
+                    "src": "https://cloud.githubusercontent.com/assets/3624786/2712771/f32f385e-c4dd-11e3-90a9-586e6abd634a.jpg"
+                }
+            }]
+        }],
+        [{
+            "name": "h3",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 966px; height: 188px; z-index: 4; left: -11px; top: 200px;"
+            },
+            "value": "If several events take place during execution, or if they happen several times, the standard callback pattern is not very helpful"
+        }],
+        [{
+            "name": "p",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 684px; height: 46px; z-index: 4; left: 118px; top: 71px;"
+            },
+            "value": "Therefore, In Node many objects emit events"
+        }, {
+            "name": "div",
+            "value": "<br>"
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element fragment",
+                "data-fragment-index": "0",
+                "style": "position: absolute; width: 874px; height: 46px; z-index: 4; left: 50px; top: 182px;"
+            },
+            "value": "Event emitters allow programmers to subscribe to events"
+        }, {
+            "name": "div",
+            "value": "<br>"
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element fragment",
+                "data-fragment-index": "1",
+                "style": "position: absolute; width: 710px; height: 46px; z-index: 4; left: 127px; top: 299px;"
+            },
+            "value": "An event emitter is an object that emits events"
+        }, {
+            "name": "div",
+            "value": "<br>"
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element fragment",
+                "data-fragment-index": "2",
+                "style": "position: absolute; width: 865px; height: 92px; z-index: 4; left: 36px; top: 412px; max-height: none; max-width: none;"
+            },
+            "value": "An event listener is a part of the code that binds to the event emitter and listens for certain types of events"
+        }, {
+            "name": "div",
+            "value": "<br>"
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element fragment",
+                "data-fragment-index": "3",
+                "style": "position: absolute; width: 865px; height: 92px; z-index: 4; left: 36px; top: 532px; max-height: none; max-width: none;"
+            },
+            "value": "Node supplies an EventEmitter pseudoclass"
+        }, {
+            "name": "notes",
+            "value": [
+                "var net;",
+                "var tcpServer;",
+                "var connLogPrefix;",
+                "conn.set;"
+            ]
+        }],
+        [{
+            "name": "h2",
+            "value": "Event Types"
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 896px; height: 497px; z-index: 4; left: 28px; top: 143px; max-height: none; max-width: none;"
+            },
+            "value": [{
+                "name": "ul",
+                "value": [{
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "0"
+                    },
+                    "value": "Emitted events always have a type, which is represented by a string"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "1"
+                    },
+                    "value": "There is no way for resolving programmatically what types of events a given event emitter emits"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "2"
+                    },
+                    "value": "Event emitter is a generic interface that serves any type of event"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "3"
+                    },
+                    "value": "Most event emitter implementations in Node will emit an \"error\" event every time there is an error"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "4"
+                    },
+                    "value": "If there is no listener to the error event type and an event with the \"error\" type occurs, the event emitter will notice it and raise that error as an uncaught exception"
+                }]
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                "var events;",
+                "var eventEmitter;",
+                "  if (!isNaN(data)) {",
+                "    eventEmitter.emit(\"numeric\", data);",
+                "  }",
+                "  eventEmitter.on(;"
+            ]
+        }],
+        [{
+            "name": "h2",
+            "attributes": {
+                "style": "font-style: normal; font-variant: normal;"
+            },
+            "value": "Event Types (cont'd)"
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 886px; height: 322px; z-index: 4; left: 36px; top: 189px; max-height: none; max-width: none;"
+            },
+            "value": [{
+                "name": "ul",
+                "value": [{
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "0"
+                    },
+                    "value": "\"EventEmitter.removeListener\" can be used to cancel the subscription to the event"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "1"
+                    },
+                    "value": "\"EventEmitter.removeAllListeners\" can be called on the emitter to cancel all subscriptions to a specific event type"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "2"
+                    },
+                    "value": "\"EventEmitter.once\" can be used to only handle the first emitted event"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "3"
+                    },
+                    "value": "We can extend any object to support events by inheriting the EventEmitter class and simply using the emit() function"
+                }]
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                "function dataProcess(data) {",
+                "  console.log(connLogPrefix, \" Got Some Data: \", data)",
+                "   if (!isNaN(data)) {",
+                "     conn.removeListener(\"data\", dataProcess);",
+                "     eventEmitter.emit(\"numeric\", data);",
+                "   }",
+                "}",
+                "con.on(\"data\", dataProcess);",
+                "var EventEmitter;",
+                "iee;",
+                "ccnum;",
+                "var numericValidator = new NumericValidator();",
+                "numericValidator.validate(data);",
+                "numericValidator.on(;"
+            ]
+        }],
+        [{
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2728621/5dba90f4-c5f8-11e3-92e4-e8871dd77522.jpg",
+                "class": "absolute-element",
+                "style": "position: absolute; max-height: none; max-width: none; width: 615px; height: 556px; z-index: 4; left: 200px; top: -10px;"
+            }
+        }],
+        [{
+            "name": "h2",
+            "value": "AFINN"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "p",
+            "value": "AFINN is a list of English words rated for valence with an integer between minus five (negative) and plus five (positive). The words have been manually labeled by Finn Arup Nielsen in 2009-2011"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "p",
+            "value": "AFINN-111: Newest version with 2477 words and phrases"
+        }],
+        [{
+            "name": "p",
+            "value": "Following boilerplate can be used:"
+        }, {
+            "name": "iframe",
+            "attributes": {
+                "src": "//itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=..8.1.handson-tcp.js",
+                "style": "width: 916px; height: 645px; max-height: none; max-width: none;"
+            }
+        }],
+        [{
+            "name": "p",
+            "value": "A debugging note:"
+        }, {
+            "name": "iframe",
+            "attributes": {
+                "src": "//itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=..8.2.handson-debug-node-inspector.sh",
+                "style": "width: 916px; height: 645px; max-height: none; max-width: none;"
+            }
+        }],
+        [{
+            "name": "pre",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 900px; height: 27px; z-index: 4; left: 130px; top: 563px; max-height: none; max-width: none;"
+            },
+            "value": [{
+                "name": "code",
+                "attributes": {
+                    "style": "width: 900px; position: absolute; top: 0; left: 0px;"
+                },
+                "value": "git clone --recursive https://github.com/itkoren/Lets-Node-ex-1.git"
+            }]
+        }, {
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2731349/0cf580c4-c62b-11e3-84fc-654252af90fa.jpg",
+                "class": "absolute-element",
+                "style": "position: absolute; max-height: none; max-width: none; width: 415px; height: 556px; z-index: 4; left: 240px; top: -10px;"
+            }
+        }],
+        [{
+            "name": "pre",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 418px; height: 60px; z-index: 6; left: 240px; top: 453px; max-height: none; max-width: none;"
+            },
+            "value": [{
+                "name": "code",
+                "attributes": {
+                    "style": "width: 414px; position: absolute; top: 0; left: 0px;"
+                },
+                "value": "cd Lets-Node-ex-1"
+            }, {
+                "name": "code",
+                "attributes": {
+                    "style": "width: 414px; position: absolute; top: 30px; left: 0px;"
+                },
+                "value": "git checkout solution"
+            }]
+        }, {
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2731491/c15cc804-c62d-11e3-8042-85bf96b3de7d.jpeg",
+                "class": "absolute-element",
+                "style": "position: absolute; max-height: none; max-width: none; width: 415px; height: 456px; z-index: 4; left: 240px; top: -10px;"
+            }
+        }]
+    ]
+}, {
+    "steps": [
+        [{
+            "name": "h2",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 238px; height: 64px; z-index: 4; left: 364px; top: 153px;"
+            },
+            "value": "Leaking"
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 625px; height: 412px; z-index: 4; left: 317px; top: 267px;"
+            },
+            "value": [{
+                "name": "img",
+                "attributes": {
+                    "src": "https://cloud.githubusercontent.com/assets/3624786/2745110/18bd6870-c731-11e3-8530-87ffa0407dc3.jpg",
+                    "style": "width: 585px; height: 372px; max-height: none; max-width: none;"
+                }
+            }]
+        }],
+        [{
+            "name": "blockquate",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 679px; height: 96px; z-index: 4; left: 129px; top: 151px;"
+            },
+            "value": "JavaScript has garbage collection, so there's no way we can leak memory right?"
+        }, {
+            "name": "h1",
+            "attributes": {
+                "class": "absolute-element fragment",
+                "data-fragment-index": "0",
+                "style": "position: absolute; width: 491px; height: 116px; z-index: 4; left: 224px; top: 309px;"
+            },
+            "value": "WRONG!!!"
+        }],
+        [{
+            "name": "h2",
+            "value": "Leaks"
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 900px; height: 232px; z-index: 4; left: 56px; top: 195px; max-height: none; max-width: none;"
+            },
+            "value": [{
+                "name": "ul",
+                "value": [{
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "0"
+                    },
+                    "value": "Memory which cannot be GC'd and reallocated even after it's not being used"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "1"
+                    },
+                    "value": "No DOM memory management problems, but memory leaks are still possible"
+                }]
+            }]
+        }],
+        [{
+            "name": "h2",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 498px; height: 64px; z-index: 4; left: 229px; top: 126px;"
+            },
+            "value": "But why bother?"
+        }, {
+            "name": "h2",
+            "attributes": {
+                "class": "absolute-element fragment",
+                "data-fragment-index": "0",
+                "style": "position: absolute; width: 966px; height: 128px; z-index: 4; left: -3px; top: 266px;"
+            },
+            "value": "We can throw a lot of RAM on our server"
+        }],
+        [{
+            "name": "h2",
+            "value": "Since"
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 859px; height: 278px; z-index: 4; left: 58px; top: 168px; max-height: none; max-width: none;"
+            },
+            "value": [{
+                "name": "ul",
+                "value": [{
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "0"
+                    },
+                    "value": "V8 becomes aggressive"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "1"
+                    },
+                    "value": "You may run out of file descriptors"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "2"
+                    },
+                    "value": "Sooner or later, your app will crash"
+                }]
+            }]
+        }],
+        [{
+            "name": "h2",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 779px; height: 128px; z-index: 4; left: 95px; top: 16px; max-height: none; max-width: none;"
+            },
+            "value": "Major Causes for Memory Leaks in Node"
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 853px; height: 233px; z-index: 4; left: 56px; top: 225px; max-height: none; max-width: none;"
+            },
+            "value": [{
+                "name": "ul",
+                "value": [{
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "0"
+                    },
+                    "value": "Closures - closures maintain references to things in their scope"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "1"
+                    },
+                    "value": "EventListeners - cleaning unneeded event listeners"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "2"
+                    },
+                    "value": "Circular references"
+                }]
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                "Circular references - two objects reference each other in such a way that both objects retain each other"
+            ]
+        }],
+        [{
+            "name": "h2",
+            "value": "Closure Leak"
+        }, {
+            "name": "iframe",
+            "attributes": {
+                "src": "//itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=..9.leaking.closure.js",
+                "style": "width: 915px; height: 629px; max-height: none; max-width: none;"
+            }
+        }],
+        [{
+            "name": "h2",
+            "value": "Event Listener Leak"
+        }, {
+            "name": "iframe",
+            "attributes": {
+                "src": "//itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=..9.leaking.event-listener.js",
+                "style": "width: 915px; height: 629px; max-height: none; max-width: none;"
+            }
+        }],
+        [{
+            "name": "h2",
+            "value": "Memory leaks are hard to detect<br>"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "p",
+            "attributes": {
+                "class": "fragment",
+                "data-fragment-index": "0"
+            },
+            "value": "Mistakes within large amount of code"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "p",
+            "attributes": {
+                "class": "fragment",
+                "data-fragment-index": "1"
+            },
+            "value": "No functionality affect until memory starvation occurs"
+        }],
+        [{
+            "name": "h2",
+            "value": "Tools"
+        }, {
+            "name": "div",
+            "value": [{
+                "name": "ul",
+                "value": [{
+                    "name": "li",
+                    "value": "Development"
+                }, {
+                    "name": "ul",
+                    "value": [{
+                        "name": "li",
+                        "value": [{
+                            "name": "a",
+                            "attributes": {
+                                "href": "https://github.com/felixge/node-memory-leak-tutorial",
+                                "target": "_blank"
+                            },
+                            "value": "v8-profiler with node-inspector"
+                        }]
+                    }, {
+                        "name": "li",
+                        "value": [{
+                            "name": "a",
+                            "attributes": {
+                                "href": "http://valgrind.org/docs/manual/quick-start.html#quick-start.intro",
+                                "target": "_blank"
+                            },
+                            "value": "Valgrind"
+                        }]
+                    }]
+                }, {
+                    "name": "li",
+                    "value": "Production:"
+                }, {
+                    "name": "ul",
+                    "value": [{
+                        "name": "li",
+                        "value": [{
+                            "name": "a",
+                            "attributes": {
+                                "href": "https://github.com/lloyd/node-memwatch",
+                                "target": "_blank"
+                            },
+                            "value": "node-memwatch"
+                        }]
+                    }, {
+                        "name": "li",
+                        "value": [{
+                            "name": "a",
+                            "attributes": {
+                                "href": "http://nodetime.com/",
+                                "target": "_blank"
+                            },
+                            "value": "NodeTime"
+                        }]
+                    }]
+                }]
+            }]
+        }]
+    ]
+}, {
+    "steps": [
+        [{
+            "name": "h2",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 437px; height: 64px; z-index: 4; left: 211px; top: 199px;"
+            },
+            "value": "Node Modules"
+        }, {
+            "name": "div",
+            "value": "<br>"
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 658px; height: 414px; z-index: 4; left: 315px; top: 281px;"
+            },
+            "value": [{
+                "name": "img",
+                "attributes": {
+                    "src": "https://cloud.githubusercontent.com/assets/3624786/2749248/1e139a14-c7f5-11e3-9e3d-147cbada350c.png",
+                    "style": "width: 618px; height: 373px; max-height: none; max-width: none;"
+                }
+            }]
+        }],
+        [{
+            "name": "h2",
+            "value": "Modules"
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 818px; height: 278px; z-index: 4; left: 67px; top: 145px; max-height: none; max-width: none;"
+            },
+            "value": [{
+                "name": "ul",
+                "value": [{
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "0"
+                    },
+                    "value": "Modules are building blocks"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "1"
+                    },
+                    "value": "Core Modules are packaged with Node distribution"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "2"
+                    },
+                    "value": "Node implements the CJS (Common JS) specifications (require &amp; exports)"
+                }]
+            }]
+        }],
+        [{
+            "name": "h2",
+            "value": "require"
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 907px; height: 556px; z-index: 4; left: 29px; top: 118px; max-height: none; max-width: none;"
+            },
+            "value": [{
+                "name": "ul",
+                "value": [{
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "0"
+                    },
+                    "value": "require() for module, can use name, relative or absolute paths"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "1"
+                    },
+                    "value": "When you use named modules, Node will search for it in the following order:"
+                }, {
+                    "name": "ul",
+                    "value": [{
+                        "name": "li",
+                        "attributes": {
+                            "class": "fragment",
+                            "data-fragment-index": "2"
+                        },
+                        "value": "Core modules"
+                    }, {
+                        "name": "li",
+                        "attributes": {
+                            "class": "fragment",
+                            "data-fragment-index": "3"
+                        },
+                        "value": "Current execution path"
+                    }, {
+                        "name": "li",
+                        "attributes": {
+                            "class": "fragment",
+                            "data-fragment-index": "4"
+                        },
+                        "value": "Traverse up"
+                    }, {
+                        "name": "li",
+                        "attributes": {
+                            "class": "fragment",
+                            "data-fragment-index": "5"
+                        },
+                        "value": "require.paths array (extensible with environment variables or code)"
+                    }]
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "6"
+                    },
+                    "value": "Searching = Looking for a physical file, then a directory with index.js and then a directory with package.json"
+                }]
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                "Try it in REPL",
+                "    require",
+                "    module.paths",
+                "    module"
+            ]
+        }],
+        [{
+            "name": "h2",
+            "value": "require Flow"
+        }, {
+            "name": "iframe",
+            "attributes": {
+                "src": "//itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.10.node-modules.require-psuedo.hs",
+                "style": "width: 915px; height: 664px; max-height: none; max-width: none;"
+            }
+        }],
+        [{
+            "name": "p",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 885px; height: 46px; z-index: 4; left: 40px; top: 130px;"
+            },
+            "value": "require() function returns module.exports object"
+        }, {
+            "name": "p",
+            "attributes": {
+                "class": "absolute-element fragment",
+                "data-fragment-index": "0",
+                "style": "position: absolute; width: 840px; height: 139px; z-index: 4; left: 60px; top: 256px; max-height: none; max-width: none;"
+            },
+            "value": "require() function is re-defined for the current module"
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element fragment",
+                "data-fragment-index": "1",
+                "style": "position: absolute; width: 877px; height: 93px; z-index: 4; left: 52px; top: 471px; max-height: none; max-width: none;"
+            },
+            "value": "The module.exports is automatically set to the same object as the exports"
+        }, {
+            "name": "notes",
+            "value": [
+                "REPL:",
+                "    console.log(module);",
+                "    console.log(module.exports);",
+                "    console.log(exports);",
+                "    module.js",
+                "    console.log(module);",
+                "    console.log(module.exports);",
+                "    console.log(exports);",
+                "    console.log(module.exports === exports);"
+            ]
+        }],
+        [{
+            "name": "h2",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 672px; height: 64px; z-index: 5; left: 148px; top: 12px;"
+            },
+            "value": "require is Synchronous"
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "fragment absolute-element",
+                "data-fragment-index": "0",
+                "style": "position: absolute; width: 773px; height: 64px; z-index: 6; left: 89px; top: 110px; max-height: none; max-width: none;"
+            },
+            "value": "require() is actually a synchronous function!"
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "fragment absolute-element",
+                "data-fragment-index": "1",
+                "style": "position: absolute; width: 920px; height: 100px; z-index: 7; left: 21px; top: 197px; max-height: none; max-width: none;"
+            },
+            "value": "Used to be asynchronous version, named require.async() (removed a year ago)"
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "fragment absolute-element",
+                "data-fragment-index": "2",
+                "style": "position: absolute; width: 894px; height: 88px; z-index: 8; left: 27px; top: 316px; max-height: none; max-width: none;"
+            },
+            "value": "A community module named require.async"
+        }, {
+            "name": "p",
+            "attributes": {
+                "class": "fragment absolute-element",
+                "data-fragment-index": "2",
+                "style": "position: absolute; width: 894px; height: 108px; z-index: 8; left: 27px; top: 416px; max-height: none; max-width: none;"
+            },
+            "value": "npm install require.async"
+        }, {
+            "name": "iframe",
+            "attributes": {
+                "class": "fragment absolute-element",
+                "data-fragment-index": "2",
+                "style": "width: 939px; height: 171px; max-height: none; max-width: none; position: absolute; z-index: 9; left: 17px; top: 517px;",
+                "src": "//itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.10.require.async.js"
+            }
+        }, {
+            "name": "notes",
+            "value": [
+                "util.js",
+                "    function merge(obj, other) {",
+                "    var keys = Object.keys(other); // How cool it is not to think about cross-browser support HA?",
+                "    for (var i = 0, len = keys.length; i &lt; len; ++i) {",
+                "    var key = keys[i];",
+                "    obj[key] = other[key];",
+                "    }",
+                "    return obj;",
+                "    }",
+                "",
+                "main.js",
+                "    var utils = require(\"./utils\");",
+                "    var a = { one: 1 };",
+                "    var b = { two: 2 };",
+                "    utils.merge(a, b);",
+                "    console.dir(a);",
+                "",
+                "    node main.js",
+                "",
+                "util.js",
+                "    add",
+                "    var merge = exports.merge = function(obj, other)",
+                "    node main.js",
+                "    npm install require.async"
+            ]
+        }],
+        [{
+            "name": "h2",
+            "value": "Module Scope"
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 895px; height: 138px; z-index: 4; left: 28px; top: 119px; max-height: none; max-width: none;"
+            },
+            "value": "requiring a module === put module to the current scope and not making it available globally"
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element fragment",
+                "data-fragment-index": "1",
+                "style": "position: absolute; width: 854px; height: 94px; z-index: 4; left: 54px; top: 289px; max-height: none; max-width: none;"
+            },
+            "value": "require() caches the results!"
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element fragment",
+                "data-fragment-index": "2",
+                "style": "position: absolute; width: 884px; height: 93px; z-index: 4; left: 33px; top: 425px; max-height: none; max-width: none;"
+            },
+            "value": "In order to <a href=\"http://nodejs.org/docs/latest/api/modules.html#modules_cycles\" target=\"_blank\">allow cycles to be resolved</a>"
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element fragment",
+                "data-fragment-index": "3",
+                "style": "position: absolute; width: 905px; height: 93px; z-index: 4; left: 27px; top: 558px; max-height: none; max-width: none;"
+            },
+            "value": "Like in requirejs, caching causes all modules to act as singletons"
+        }, {
+            "name": "notes",
+            "value": [
+                "requiring a module === bringing the module to the current scope and not making it available globally",
+                "",
+                "module.js",
+                "    module.exports = {",
+                "    name: \"Default name\",",
+                "    desc: \"Default desc\"",
+                "    };",
+                "",
+                "modules.js",
+                "    var module1 = require(\"./module.js\");",
+                "    var module2 = require(\"./module.js\");",
+                "    module1.name = \"module 1\";",
+                "    module2.name = \"module 2\";",
+                "    console.log(module1);",
+                "    console.log(module2);",
+                "",
+                "    node modules.js"
+            ]
+        }],
+        [{
+            "name": "h2",
+            "value": "Module Scope (cont'd)"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "p",
+            "attributes": {
+                "class": "fragment",
+                "data-fragment-index": "0"
+            },
+            "value": "It is possible to use a (factory) function, to create a new variable scope"
+        }, {
+            "name": "p",
+            "value": "<br>"
+        }, {
+            "name": "p",
+            "attributes": {
+                "class": "fragment",
+                "data-fragment-index": "1"
+            },
+            "value": "Lets see"
+        }, {
+            "name": "notes",
+            "value": [
+                "module.js",
+                "    module.exports = function() {",
+                "    return {",
+                "    name: \"Default name\",",
+                "    desc: \"Default desc\"",
+                "    };",
+                "    };",
+                "modules.js",
+                "    var module1 = require(\"./module.js\")();",
+                "    var module2 = require(\"./module.js\")();",
+                "",
+                "node modules.js"
+            ]
+        }],
+        [{
+            "name": "h2",
+            "value": "Module Scope (cont'd)"
+        }, {
+            "name": "p",
+            "attributes": {
+                "class": "absolute-element fragment",
+                "data-fragment-index": "0",
+                "style": "position: absolute; width: 930px; height: 93px; z-index: 4; left: 14px; top: 98px; max-height: none; max-width: none;"
+            },
+            "value": "In rare cases, you would like to flush the require cache"
+        }, {
+            "name": "p",
+            "attributes": {
+                "class": "absolute-element fragment",
+                "data-fragment-index": "1",
+                "style": "position: absolute; width: 553px; height: 46px; z-index: 4; left: 192px; top: 202px;"
+            },
+            "value": "This is possible using the following:"
+        }, {
+            "name": "iframe",
+            "attributes": {
+                "class": "absolute-element fragment",
+                "data-fragment-index": "2",
+                "src": "//itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.10.require.scope.js",
+                "style": "width: 916px; height: 456px; max-height: none; max-width: none; position: absolute; z-index: 4; left: 21px; top: 241px;"
+            }
+        }, {
+            "name": "notes",
+            "value": [
+                "In rare cases, you would like to flush the require cache for a specific module - usually it should not be used"
+            ]
+        }],
+        [{
+            "name": "pre",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 900px; height: 27px; z-index: 4; left: 130px; top: 563px; max-height: none; max-width: none;"
+            },
+            "value": [{
+                "name": "code",
+                "attributes": {
+                    "style": "width: 900px; position: absolute; top: 0; left: 0px;"
+                },
+                "value": "git clone --recursive https://github.com/itkoren/Lets-Node-ex-2.git"
+            }]
+        }, {
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2731349/0cf580c4-c62b-11e3-84fc-654252af90fa.jpg",
+                "class": "absolute-element",
+                "style": "position: absolute; max-height: none; max-width: none; width: 415px; height: 556px; z-index: 4; left: 240px; top: -10px;"
+            }
+        }],
+        [{
+            "name": "pre",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 418px; height: 60px; z-index: 6; left: 240px; top: 453px; max-height: none; max-width: none;"
+            },
+            "value": [{
+                "name": "code",
+                "attributes": {
+                    "style": "width: 414px; position: absolute; top: 0; left: 0px;"
+                },
+                "value": "cd Lets-Node-ex-2"
+            }, {
+                "name": "code",
+                "attributes": {
+                    "style": "width: 414px; position: absolute; top: 30px; left: 0px;"
+                },
+                "value": "git checkout solution"
+            }]
+        }, {
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/2731491/c15cc804-c62d-11e3-8042-85bf96b3de7d.jpeg",
+                "class": "absolute-element",
+                "style": "position: absolute; max-height: none; max-width: none; width: 415px; height: 456px; z-index: 4; left: 240px; top: -10px;"
+            }
+        }],
+        [{
+            "name": "h2",
+            "value": "<a href=\"https://www.youtube.com/watch?v=ztspvPYybIY&list=PL5JR8tO1JinM80lS6gBrblVvv3m-oDvQV\" target=\"_blank\">Additional Resources</a>"
+        }, {
+            "name": "iframe",
+            "attributes": {
+                "class": "absolute-element",
+                "src": "//www.youtube.com/embed/ztspvPYybIY?list=PL5JR8tO1JinM80lS6gBrblVvv3m-oDvQV",
+                "style": "width: 805px; height: 560px; max-height: none; max-width: none; position: absolute; z-index: 4; left: 121px; top: 141px;"
+            }
+        }]
+    ]
+}]
