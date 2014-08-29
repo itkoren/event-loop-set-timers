@@ -151,6 +151,16 @@ Sort.prototype.reset = function () {
     this.print();
 }
 
+Sort.prototype.startNoTimeout = function () {
+    this.useSetImmediate = false;
+    this.interval_time = -1;
+    this.results = document.getElementById("NoTimersTestResuts");
+    this.powerConsumption = "<span style='color:green;'>High</span>";
+    this.CPUEfficency = "<span style='color:red;'>Low</span>";
+    this.reset();
+    this.start();
+}
+
 Sort.prototype.startSetTimeout15 = function () {
     this.useSetImmediate = false;
     this.interval_time = 15;
@@ -226,25 +236,25 @@ Sort.prototype.registerCallback = function () {
     var t = this;
 
     if (this.useSetImmediate) {
-        if (window.setImmediate)
-        {
+        if (window.setImmediate) {
             this.timer = setImmediate(function () { t.stepper(); });
         }
-        else if (window.msSetImmediate)
-        {
+        else if (window.msSetImmediate) {
             this.timer = msSetImmediate(function () { t.stepper(); });
         }
-        else if (window.MozSetImmediate)
-        {
+        else if (window.MozSetImmediate) {
             this.timer = MozSetImmediate(function () { t.stepper(); });
         }
         else if (window.WebkitSetImmediate) {
             this.timer = WebkitSetImmediate(function () { t.stepper(); });
         }
-        else if (window.OSetImmediate)
-        {
+        else if (window.OSetImmediate) {
             this.timer = OSetImmediate(function () { t.stepper(); });
         }
+    }
+    else if (0 > this.interval_time) {
+        // No Timer
+        this.timer = function () { t.stepper(); };
     }
     else {
         this.timer = setTimeout(function () { t.stepper(); }, this.interval_time);
