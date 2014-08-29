@@ -14,7 +14,7 @@
             "name": "h2",
             "attributes": {
                 "class": "absolute-element",
-                "style": "position: absolute; width: 586px; height: 65px; z-index: 4; left: 217px; top: 287px;"
+                "style": "position: absolute; width: 586px; height: 65px; z-index: 4; left: 217px; top: 37px;"
             },
             "value": "Stop Starvation OR Open the Chakra for the Event Loop"
         }],
