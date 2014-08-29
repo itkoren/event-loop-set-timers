@@ -500,10 +500,7 @@ function GetBrowser() {
     }
 }
 
-
-
 // Test Infrastructure
-
 function InitializePage() {
 
     GetBrowser();
