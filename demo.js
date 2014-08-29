@@ -131,7 +131,18 @@ Sort.prototype.stepper = function () {
         this.finished();
     }
     else {
-        this.registerCallback();
+        this.make_cpu_intensive_calc_for_demo(1);
+        this.registerCallback(0 > this.interval_time);
+    }
+}
+
+// simulate a complex algorithm which takes some time to execute
+Sort.prototype.make_cpu_intensive_calc_for_demo = function(milliseconds) {
+    var start = (new Date()).getTime();
+    while (true) {
+        if (((new Date()).getTime() - start) >= milliseconds){
+            return;
+        }
     }
 }
 
@@ -155,7 +166,7 @@ Sort.prototype.startNoTimeout = function () {
     this.useSetImmediate = false;
     this.interval_time = -1;
     this.results = document.getElementById("NoTimersTestResuts");
-    this.powerConsumption = "<span style='color:green;'>High</span>";
+    this.powerConsumption = "<span style='color:red;'>High</span>";
     this.CPUEfficency = "<span style='color:red;'>Low</span>";
     this.reset();
     this.start();
@@ -230,9 +241,13 @@ Sort.prototype.start = function () {
     this.processing_max = 0;
     this.num_iterations = 0;
     this.func(this);
+
+    if (0 > this.interval_time) {
+        this.timer();
+    }
 }
 
-Sort.prototype.registerCallback = function () {
+Sort.prototype.registerCallback = function (invoke) {
     var t = this;
 
     if (this.useSetImmediate) {
@@ -255,7 +270,10 @@ Sort.prototype.registerCallback = function () {
     else if (0 > this.interval_time) {
         // No Timer
         this.timer = function () { t.stepper(); };
-        this.timer();
+
+        if (invoke) {
+            this.timer();
+        }
     }
     else {
         this.timer = setTimeout(function () { t.stepper(); }, this.interval_time);

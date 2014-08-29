@@ -126,6 +126,13 @@ div.result {
     text-align: center;
 }
 
+#ResetContainer
+{
+    display: inline-block;
+    margin-bottom: 20px;
+    width: 1000px;
+}
+
 #TestContainer
 {
     display: inline-block;
@@ -157,5 +164,30 @@ div.result {
 {
     width: 140px;
     padding: 2px;
+}
+
+.ResetButton
+{
+    width: 60px;
+    padding: 2px;
     margin-top: 6px;
+    float: right;
+}
+
+#histogram {
+    display: inline-block;
+}
+
+.hbar {
+    background-color: lightblue;
+    color: black;
+}
+
+.avg {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.overhead {
+    color: red;
 }

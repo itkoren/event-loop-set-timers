@@ -1,0 +1,37 @@
+<html style="height: auto; "><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="Timers demo">
+    <title>setImmediate API demo</title>
+    <link rel="stylesheet" type="text/css" href="demo.css">
+</head>
+
+<body onload="InitializePage();">
+<h1 id="DemoTitle">
+    Test setTimeout Frequency
+</h1>
+<div id="DemoScreenreaderText">
+    Screenreader Text Goes Here
+</div>
+<div id="DemoContent">
+
+    <div id="TestWrapper">
+        <div id="TestContainer">
+            Desired ms to delay: <input id="input" type="text" value="8"><br>
+
+            <div id="histogram"></div>
+        </div>
+    </div>
+</div>
+<div id="DemoDetails">
+    <div><b>About The setTimeout Frequency Test</b></div>
+    <p>
+        This page tests the frequency of setTimeout in the browser. Javascript applications use setTimeout as a mechanism to 'yield' to the browser so that the browser can repaint.  Some browsers implement a 15ms setTimeout minimum (based on the HTML4 spec) but the newer browsers implement a 4ms setTimeout minimum (based on the HTML5 spec).  This page measures the setTimeout lag and discover the browser's minimum interval.
+    </p>
+    <p>
+        The original demo was created by <a href="https://www.belshe.com">Mike Belshe</a> from Google as part of a demo he made for browser timers. I (<a href="https://twitter.com/itkoren">@itkoren</a>) adapted the demo to demonstrate the event loop and the importance of using timers in order not to starve it - the source code can also be found on <a href="https://github.com/itkoren/setImmediate-shim-demo">GitHub</a>.
+    </p>
+</div>
+<script type="text/javascript" src="timers.js"></script>
+
+<div style="clear: both; "></div></body>
+</html>
