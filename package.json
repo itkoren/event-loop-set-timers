@@ -1,0 +1,15 @@
+{
+    "name": "event-loop-set-timers",
+    "version": "0.0.1",
+    "description": "A Session about the Event Loop, Starvation, Timers & setImmediate API Shim Demo",
+    "private": true,
+    "scripts": {
+        "start": "node ./server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Itai Koren (@itkoren)",
+    "license": "MIT",
+    "engines": {
+        "node": ">= 0.10.x"
+    }
+}
