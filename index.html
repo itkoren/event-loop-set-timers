@@ -1,48 +1,15 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <!-- If the query includes '/', change it to '%2F' -->
-    <script>
-        if (window.location.search.match(/\//g)) {
-            window.location.search = window.location.search.replace(/\//g, "%2F");
-        }
-    </script>
-    <title>Lets Node - NodeJS Course</title>
-    <link rel="stylesheet" href="//gh.itkoren.com/revealular/reveal.js/css/reveal.min.css">
-    <link rel="stylesheet" href="//gh.itkoren.com/revealular/reveal.js/css/theme/default.css" id="theme">
-    <link rel="stylesheet" href="//gh.itkoren.com/revealular/reveal.js/lib/css/zenburn.css">
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js"></script>
-    <!-- If the query includes 'print-pdf', include the PDF print sheet -->
-    <script>
-        if (window.location.search.match(/print-pdf/gi)) {
-            var link = document.createElement("link");
-            link.rel = "stylesheet";
-            link.type = "text/css";
-            link.href = "http://gh.itkoren.com/revealular/reveal.js/css/print/pdf.css";
-            document.getElementsByTagName("head")[0].appendChild(link);
-        }
-    </script>
-    <!--[if lt IE 9]>
-    <script src="//gh.itkoren.com/revealular/reveal.js/lib/js/html5shiv.js"></script>
-    <![endif]-->
+    <title>Event Loop, Starvation, Timers & setImmediate API Shim Demo</title>
 </head>
 
 <body>
-<div class="reveal" ng-app="revealular" ng-controller="RevealularController">
-
-    <!-- Any section element inside of this container is displayed as a slide -->
-    <div slideshow="slides">
-
-    </div>
-
-</div>
-
-<script src="//gh.itkoren.com/revealular/reveal.js/lib/js/head.min.js"></script>
-<script src="//gh.itkoren.com/revealular/reveal.js/js/reveal.min.js"></script>
-
 <!-- Get the RevealularJS lib -->
-<script src="//gh.itkoren.com/revealular/js/revealular.js" data-slides="slides"></script>
+<script src="http://gh.itkoren.com/revealular/initializer.js"></script>
+<script type="text/javascript">
+    loadSlideshow({ "data-slides": "file:///Users/itaik/Projects/private/GitHub/event-loop-set-timers/slides.json" });
+</script>
 </body>
 
 </html>
