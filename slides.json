@@ -106,6 +106,39 @@
             ]
         }],
         [{
+            "name": "div",
+            "value": "A process that is waiting for a time slice is said to suffer starvation if it is never given a time slice"
+        }, {
+            "name": "notes",
+            "value": [
+                "Imagine in you're in a queue to pay get food at a restaurant, for which pregnant woman has priority.",
+                "And there's just a whole bunch of pregnant women arriving all the time.",
+                "You'll soon be starving"
+            ]
+        }],
+        [{
+            "name": "div",
+            "value": "LIFO reserved list of frames containing arguments and local variables which represents function calls"
+        }],
+        [{
+            "name": "div",
+            "value": "Large, but mostly unstructured region of memory for dynamic allocation"
+        }],
+        [{
+            "name": "div",
+            "value": "FIFO reserved list of messages to be processed which represents events and associated with functions"
+        }],
+        [{
+            "name": "div",
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "//itkoren.github.io/egist/?data-gist-id=bb74b816fab8db026b94&amp;data-gist-file=event_loop_pseudo.hs",
+                    "style": "width: 916px; height: 302px; max-height: none; max-width: none;"
+                }
+            }]
+        }],
+        [{
             "name": "h2",
             "value": "Browser (Under the Hood)"
         }, {
@@ -698,51 +731,27 @@
             "value": "setTimeout === Add this code to the message queue, after this delay"
         }],
         [{
-            "name": "h3",
-            "attributes": {
-                "class": "absolute-element",
-                "style": "position: absolute; width: 896px; height: 47px; z-index: 4; left: 11px; top: 30px;"
-            },
+            "name": "div",
             "value": "Web browsers used to use the default system timer (for setTimeout & setInterval)"
         }],
         [{
-            "name": "h3",
-            "attributes": {
-                "class": "absolute-element",
-                "style": "position: absolute; width: 896px; height: 47px; z-index: 4; left: 11px; top: 30px;"
-            },
+            "name": "div",
             "value": "Default Windows timer resolution: 10-15.6ms,<br>Linux: 1-10ms"
         }],
         [{
-            "name": "h3",
-            "attributes": {
-                "class": "absolute-element",
-                "style": "position: absolute; width: 896px; height: 47px; z-index: 4; left: 11px; top: 30px;"
-            },
+            "name": "div",
             "value": "Google Chrome was the first to switch to a higher-resolution timer of 1ms"
         }],
         [{
-            "name": "h3",
-            "attributes": {
-                "class": "absolute-element",
-                "style": "position: absolute; width: 896px; height: 47px; z-index: 4; left: 11px; top: 30px;"
-            },
+            "name": "div",
             "value": "BUT, this caused the CPU to spin, and reduce the battery run time (on laptops) by as much as 25%"
         }],
         [{
-            "name": "h3",
-            "attributes": {
-                "class": "absolute-element",
-                "style": "position: absolute; width: 896px; height: 47px; z-index: 4; left: 11px; top: 30px;"
-            },
+            "name": "div",
             "value": "SO, They pushed the timer resolution to 4ms, and all other vendors followed"
         }],
         [{
-            "name": "h3",
-            "attributes": {
-                "class": "absolute-element",
-                "style": "position: absolute; width: 896px; height: 47px; z-index: 4; left: 11px; top: 30px;"
-            },
+            "name": "div",
             "value": "The 4ms delay was codified in HTML5 as part of the Timer section"
         }],
         [{
