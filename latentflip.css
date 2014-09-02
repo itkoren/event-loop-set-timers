@@ -87,7 +87,7 @@ transition: background 0.25s linear;
 }
 
 [role=timeouts]:before {
-    content: "Messages Queue:";
+    content: "Waiting Timers:";
     opacity: 0.5;
     padding: 5px;
     margin: 5px;
