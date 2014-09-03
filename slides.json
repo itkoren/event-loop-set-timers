@@ -422,6 +422,32 @@
             }]
         }],
         [{
+            "name": "div",
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "//jsbin.com/vunana/1/embed?js,console",
+                    "style": "width: 916px; height: 692px; max-height: none; max-width: none;"
+                }
+            }]
+        }],
+        [{
+            "name": "div",
+            "value": [{
+                "name": "a",
+                "attributes": {
+                    "class": "jsbin-embed",
+                    "href": "http://jsbin.com/vunana/1/embed?js,console"
+                },
+                "value": "Solution"
+            }, {
+                "name": "script",
+                "attributes": {
+                    "src": "http://static.jsbin.com/js/embed.js"
+                }
+            }]
+        }],
+        [{
             "name": "h2",
             "value": "Under the Hood (cont'd)"
         }, {
