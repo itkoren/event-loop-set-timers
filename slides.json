@@ -118,7 +118,14 @@
         }],
         [{
             "name": "div",
-            "value": "LIFO reserved list of frames containing arguments and local variables which represents function calls"
+            "value": "LIFO reserved list of frames (known as execution contexts) containing arguments and local variables which represents function scopes"
+        }],
+        [{
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/4131043/f1551658-3340-11e4-9e68-fbaac8f4ea0a.png",
+                "style": "position: absolute; width: 689px; height: 388px; z-index: 2; left: 170px; top: 80px; max-height: none; max-width: none;"
+            }
         }],
         [{
             "name": "div",
@@ -339,6 +346,70 @@
                 "",
                 "In a world that the original Moor Law had been matched, there would have been no need for the use of threads"
             ]
+        }],
+        [{
+            "name": "h2",
+            "value": "Stack (Under the Hood - cont'd)"
+         }, {
+            "name": "div",
+            "value": [
+                {
+                    "name":"div",
+                    "value": "On each function call a new execution context is created and added to the stack:<br><br>"
+                },
+                {
+                    "name": "ul",
+                    "value": [
+                        {
+                            "name": "li",
+                            "attributes": {
+                                "class": "fragment",
+                                "data-fragment-index": "0"
+                            },
+                            "value": "Arguments, (inner) functions and (inner) variables are resolved, validated and used for creating a VO (also referred as AO)"
+                        },
+                        {
+                            "name": "li",
+                            "attributes": {
+                                "class": "fragment",
+                                "data-fragment-index": "1"
+                            },
+                            "value": "Scope Chain is created (collection of all parent EC VO's)"
+                        },
+                        {
+                            "name": "li",
+                            "attributes": {
+                                "class": "fragment",
+                                "data-fragment-index": "2"
+                            },
+                            "value": "The value of \"this\" (function context) is determined"
+                        }
+                    ]
+                },
+                {
+                    "name":"div",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "3"
+                    },
+                    "value": "<br>Now the code is executed in it's context"
+                }]
+        }, {
+            "name": "notes",
+            "value": [
+                "VO - Variable Object, AO - Activation Object",
+                "What we refer as hoisting is actually more clear now that we understand how the VO is being created"
+            ]
+        }],
+        [{
+            "name": "div",
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "//itkoren.github.io/egist/?data-gist-id=bb74b816fab8db026b94&amp;data-gist-file=execution_context_object.js",
+                    "style": "width: 916px; height: 302px; max-height: none; max-width: none;"
+                }
+            }]
         }],
         [{
             "name": "h2",
