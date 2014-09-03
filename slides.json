@@ -432,22 +432,6 @@
             }]
         }],
         [{
-            "name": "div",
-            "value": [{
-                "name": "a",
-                "attributes": {
-                    "class": "jsbin-embed",
-                    "href": "http://jsbin.com/vunana/1/embed?js,console"
-                },
-                "value": "Solution"
-            }, {
-                "name": "script",
-                "attributes": {
-                    "src": "http://static.jsbin.com/js/embed.js"
-                }
-            }]
-        }],
-        [{
             "name": "h2",
             "value": "Under the Hood (cont'd)"
         }, {
