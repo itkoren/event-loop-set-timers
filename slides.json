@@ -366,7 +366,7 @@
                                 "class": "fragment",
                                 "data-fragment-index": "0"
                             },
-                            "value": "Arguments, (inner) functions and (inner) variables are resolved, validated and used for creating a VO (also referred as AO)"
+                            "value": "Arguments, (inner) functions and (inner) variables are resolved, validated and used for creating a VO (also referred as AO) / Variable Environment"
                         },
                         {
                             "name": "li",
@@ -374,7 +374,7 @@
                                 "class": "fragment",
                                 "data-fragment-index": "1"
                             },
-                            "value": "Scope Chain is created (collection of all parent EC VO's)"
+                            "value": "Scope Chain is created (collection of all parent EC VO's) / Lexical Environment (Lexical Record + Outer Environment Reference)"
                         },
                         {
                             "name": "li",
