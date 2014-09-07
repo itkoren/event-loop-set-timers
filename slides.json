@@ -358,6 +358,68 @@
                     "value": "On each function call a new execution context is created and added to the stack:<br><br>"
                 },
                 {
+                    "name":"div",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "0"
+                    },
+                    "value": "ECMA-262 V.3 (ES3):<br>"
+                },
+                {
+                    "name": "ul",
+                    "value": [
+                        {
+                            "name": "li",
+                            "attributes": {
+                                "class": "fragment",
+                                "data-fragment-index": "1"
+                            },
+                            "value": "Arguments, (inner) functions and (inner) variables are resolved, validated and used for creating a VO (also referred as AO) / Variable Environment"
+                        },
+                        {
+                            "name": "li",
+                            "attributes": {
+                                "class": "fragment",
+                                "data-fragment-index": "2"
+                            },
+                            "value": "Scope Chain is created (collection of all parent EC VO's) / Lexical Environment (Lexical Record + Outer Environment Reference)"
+                        },
+                        {
+                            "name": "li",
+                            "attributes": {
+                                "class": "fragment",
+                                "data-fragment-index": "3"
+                            },
+                            "value": "The value of \"this\" (function context) is determined"
+                        }
+                    ]
+                },
+                {
+                    "name":"div",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "4"
+                    },
+                    "value": "<br>Now the code is executed in it's context"
+                }]
+        }, {
+            "name": "notes",
+            "value": [
+                "VO - Variable Object, AO - Activation Object",
+                "What we refer as hoisting is actually more clear now that we understand how the VO is being created"
+            ]
+        }],
+        [{
+            "name": "h2",
+            "value": "Stack (Under the Hood - cont'd)"
+        }, {
+            "name": "div",
+            "value": [
+                {
+                    "name":"div",
+                    "value": "ECMA-262 V.5 (ES5):<br>"
+                },
+                {
                     "name": "ul",
                     "value": [
                         {
@@ -366,7 +428,7 @@
                                 "class": "fragment",
                                 "data-fragment-index": "0"
                             },
-                            "value": "Arguments, (inner) functions and (inner) variables are resolved, validated and used for creating a VO (also referred as AO) / Variable Environment"
+                            "value": "Arguments, (inner) functions and (inner) variables are resolved, validated and used for creating a Variable Environment"
                         },
                         {
                             "name": "li",
@@ -374,7 +436,7 @@
                                 "class": "fragment",
                                 "data-fragment-index": "1"
                             },
-                            "value": "Scope Chain is created (collection of all parent EC VO's) / Lexical Environment (Lexical Record + Outer Environment Reference)"
+                            "value": "Lexical Environment is created (Lexical Record + Outer Environment Reference)"
                         },
                         {
                             "name": "li",
@@ -397,8 +459,7 @@
         }, {
             "name": "notes",
             "value": [
-                "VO - Variable Object, AO - Activation Object",
-                "What we refer as hoisting is actually more clear now that we understand how the VO is being created"
+                "What we refer as hoisting is actually more clear now that we understand how the VO/VE is being created"
             ]
         }],
         [{
