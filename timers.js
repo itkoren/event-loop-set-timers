@@ -88,6 +88,6 @@ function fire() {
 }
 
 // Test Infrastructure
-function InitializePage() {
+function startTimers() {
     setTimeout(fire, 1);
 }

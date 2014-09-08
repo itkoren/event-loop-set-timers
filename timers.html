@@ -5,7 +5,7 @@
     <link rel="stylesheet" type="text/css" href="demo.css">
 </head>
 
-<body onload="InitializePage();">
+<body>
 <h1 id="DemoTitle">
     setTimeout Frequency Demo
 </h1>
@@ -16,7 +16,7 @@
 
     <div id="TestWrapper">
         <div id="TestContainer">
-            Desired ms to delay: <input id="input" type="text" value="8"><br>
+            Desired ms to delay: <input id="input" type="text" value="8"><input type="button" value="Start Timers" onclick="startTimers();"><br>
 
             <div id="histogram"></div>
         </div>
