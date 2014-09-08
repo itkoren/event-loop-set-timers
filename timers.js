@@ -73,7 +73,7 @@ function fire() {
     // Get the new interval from the input.
     var input = document.getElementById("input");
 
-    if (!isNaN(input.value) && 0 < input.value) {
+    if (!isNaN(input.value) && 0 <= input.value) {
         // If the interval has changed, reset our averages.
         if (input.value != last_interval) {
             total_value = 0;
