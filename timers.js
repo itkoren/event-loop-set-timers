@@ -34,10 +34,10 @@ var Histogram = function() {
         var samples_per_sec = count / (now - start) * 1000;
         var overhead = (1000 - (samples_per_sec * recent)) / 1000 * 100;
 
-        html += "<br><span class='avg'>Average: " + average.toFixed(2) + "</span>";
+        html += "<br><span class=\"avg\">Average: " + average.toFixed(2) + "</span>";
         html += "<br>Samples: " + count;
         html += "<br>Samples/sec: " + samples_per_sec.toFixed(2) ;
-        //html += "<br><span class='overhead'>Browser Overhead: " + overhead.toFixed(2)  + "%</span>";
+        //html += "<br><span class=\"overhead\">Browser Overhead: " + overhead.toFixed(2)  + "%</span>";
 
 
         html += "<hr>Histogram:";
@@ -51,7 +51,7 @@ var Histogram = function() {
         for (i in buckets) {
             var bucket = buckets[i];
             var value = samples[bucket];
-            html += "<div class=hbar style='width: " + (value / count * maxWidth) + "px'>" + bucket + "ms&nbsp;(" + value + "&nbsp;samples)</div>";
+            html += "<div class=hbar style=\"width: " + (value / count * maxWidth) + "px\">" + bucket + "ms&nbsp;(" + value + "&nbsp;samples)</div>";
         }
         output.innerHTML = html;
     }
@@ -71,19 +71,20 @@ function fire() {
     data.Draw("histogram");
 
     // Get the new interval from the input.
-    var input = document.getElementById('input');
+    var input = document.getElementById("input");
 
-    // If the interval has changed, reset our averages.
-    if (input.value != last_interval) {
-        total_value = 0;
-        total_count = 0;
-        data.Clear();
+    if (!isNaN(input.value) && 0 < input.value) {
+        // If the interval has changed, reset our averages.
+        if (input.value != last_interval) {
+            total_value = 0;
+            total_count = 0;
+            data.Clear();
+        }
+        last_interval = input.value;
+
+        last = new Date();
+        setTimeout(fire, last_interval);
     }
-    last_interval = input.value;
-
-    last = new Date();
-    setTimeout(fire, last_interval);
-
 }
 
 // Test Infrastructure
