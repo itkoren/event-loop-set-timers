@@ -350,7 +350,7 @@
         [{
             "name": "h2",
             "value": "Stack (Under the Hood - cont'd)"
-         }, {
+        }, {
             "name": "div",
             "value": [
                 {
@@ -809,13 +809,395 @@
             "name": "h2",
             "value": "But What about Long Running tasks?"
         }, {
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 918px; height: 430px; z-index: 4; left: 16px; top: 156px; max-height: none; max-width: none;"
+            },
+            "value": [{
+                "name": "ul",
+                "value": [{
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "0",
+                        "style": "width: 800px;"
+                    },
+                    "value": "Eteration (coined by Doug crockford)"
+                }]
+            }, {
+                "name": "div",
+                "attributes": {
+                    "class": "fragment",
+                    "data-fragment-index": "1",
+                    "style": "text-align: left;"
+                },
+                "value": [{
+                    "name": "iframe",
+                    "attributes": {
+                        "src": "//itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=..4.reactor-model.eteration.js",
+                        "style": "width: 916px; height: 302px; max-height: none; max-width: none;"
+                    }
+                }]
+            }]
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 752px; height: 46px; z-index: 4; left: 17px; top: 505px;"
+            },
+            "value": [{
+                "name": "ul",
+                "value": [{
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "2",
+                        "style": "width: 660px;"
+                    },
+                    "value": "WebWorkers (Not in our scope)"
+                }]
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                "Eteration (coined by Doug crockford) - multiple turns for long tasks, when each turn calls the next one using a callback passed to a defer execution",
+                "",
+                "Workers - move the task to a separate thread"
+            ]
+        }],
+        [{
+            "name": "div",
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "//itkoren.github.io/egist/?data-gist-id=bb74b816fab8db026b94&amp;data-gist-file=iteration.js",
+                    "style": "width: 916px; height: 422px; max-height: none; max-width: none;"
+                }
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                "Eteration (coined by Doug crockford) - multiple turns for long tasks, when each turn calls the next one using a callback passed to a defer execution",
+                "",
+                "Workers - move the task to a separate thread"
+            ]
+        }],
+        [{
+            "name": "div",
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "//itkoren.github.io/egist/?data-gist-id=bb74b816fab8db026b94&amp;data-gist-file=recursion.js",
+                    "style": "width: 916px; height: 392px; max-height: none; max-width: none;"
+                }
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                "Eteration (coined by Doug crockford) - multiple turns for long tasks, when each turn calls the next one using a callback passed to a defer execution",
+                "",
+                "Tail Recursion - TCO (Tail Call Optimization), Proper Tail Call"
+            ]
+        }],
+        [{
+            "name": "div",
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "//itkoren.github.io/egist/?data-gist-id=bb74b816fab8db026b94&amp;data-gist-file=eteration.js",
+                    "style": "width: 916px; height: 302px; max-height: none; max-width: none;"
+                }
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                "Eteration (coined by Doug crockford) - multiple turns for long tasks, when each turn calls the next one using a callback passed to a defer execution",
+                "",
+                "Workers - move the task to a separate thread"
+            ]
+        }],
+        [{
+            "name": "div",
+            "value": "IMPORTANT NOTE: When working with timers, always pass a function reference or an anonymous function wrapper - Never pass a full anonymous function"
+        }],
+        [{
+            "name": "div",
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "//itkoren.github.io/egist/?data-gist-id=bb74b816fab8db026b94&amp;data-gist-file=factorial_iteration.js",
+                    "style": "width: 916px; height: 302px; max-height: none; max-width: none;"
+                }
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                "Eteration (coined by Doug crockford) - multiple turns for long tasks, when each turn calls the next one using a callback passed to a defer execution",
+                "",
+                "Workers - move the task to a separate thread"
+            ]
+        }],
+        [{
+            "name": "div",
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "//itkoren.github.io/egist/?data-gist-id=bb74b816fab8db026b94&amp;data-gist-file=factorial_tail_recursion.js",
+                    "style": "width: 916px; height: 302px; max-height: none; max-width: none;"
+                }
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                "Eteration (coined by Doug crockford) - multiple turns for long tasks, when each turn calls the next one using a callback passed to a defer execution",
+                "",
+                "Workers - move the task to a separate thread"
+            ]
+        }],
+        [{
+            "name": "div",
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "//itkoren.github.io/egist/?data-gist-id=bb74b816fab8db026b94&amp;data-gist-file=factorial_async.js",
+                    "style": "width: 916px; height: 502px; max-height: none; max-width: none;"
+                }
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                "Eteration (coined by Doug crockford) - multiple turns for long tasks, when each turn calls the next one using a callback passed to a defer execution",
+                "",
+                "Workers - move the task to a separate thread"
+            ]
+        }],
+        [{
+            "name": "h3",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 896px; height: 47px; z-index: 4; left: 11px; top: 30px;"
+            },
+            "value": "setTimeout !== Run this code after this delay"
+        }],
+        [{
+            "name": "h3",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 896px; height: 47px; z-index: 4; left: 11px; top: 30px;"
+            },
+            "value": "setTimeout === Add this code to the message queue, after this delay"
+        }],
+        [{
+            "name": "p",
+            "value": [{
+                "name": "img",
+                "attributes": {
+                    "src": "https://cloud.githubusercontent.com/assets/3624786/4257730/4b055536-3ac7-11e4-8668-7519a2c61b87.png",
+                    "style": "width: 689px; height: 443px; max-height: none; max-width: none; position: absolute; z-index: 4; left: 149px; top: 0px;",
+                    "class": "absolute-element"
+                }
+            }]
+        }, {
+            "name": "h3",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 586px; height: 65px; z-index: 4; left: 217px; top: 467px;"
+            },
+            "value": "So Lets Talk About Timers"
+        }],
+        [{
+            "name": "div",
+            "value": "Operating systems use PIT (Programmable Interrupt Timer) to schedule interrupts and register timer interrupt handlers"
+        }, {
+            "name": "notes",
+            "value": [
+                "systems provide a hardware component called the programmable interrupt timer (PIT),",
+                "also known as the system timer or just the timer.",
+                "The timer allows the operating system to schedule an interrupt with some fixed granularity—say, every 10 milliseconds.",
+                "The kernel can then register a function, known as the timer interrupt handler,",
+                "to respond to this timer interrupt and perform the aforementioned time-related housekeeping.",
+                "There are two major downsides to this model.",
+                "The first is that deciding the interval of the timer interrupt is a trade-off:",
+                "Too low a frequency and the granularity of the kernel's time keeping is suboptimal",
+                "Conversely, too high a frequency and you waste a lot of processor time processing the timer interrupt when it isn't needed"
+            ]
+        }],
+        [{
+            "name": "div",
+            "value": "Web browsers used to use the default system timer (for setTimeout & setInterval)"
+        }],
+        [{
+            "name": "div",
+            "value": "Default Windows timer resolution (&lt;Win8): 10-15.6ms,<br>Linux: 1-10ms (Tickless)"
+        }],
+        [{
+            "name": "div",
+            "value": "Google Chrome was the first to switch to a higher-resolution timer of 1ms"
+        }],
+        [{
+            "name": "div",
+            "value": "BUT, this caused the CPU to spin, and reduce the battery run time (on laptops) by as much as 25%"
+        }],
+        [{
+            "name": "div",
+            "value": "SO, They pushed the timer resolution to 4ms, and all other vendors followed"
+        }],
+        [{
+            "name": "div",
+            "value": "The 4ms delay was codified in HTML5 as part of the Timer section"
+        }],
+        [{
+            "name": "div",
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "./timers.html",
+                    "style": "left:-10px; width: 976px; height: 682px; max-height: none; max-width: none;"
+                }
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                "But today we have GHz CPU's",
+                "This is why we need other alternatives",
+                "For animations, we can use CSS transitions and animations",
+                "OR, requestAnimationFrame which allows us to schedule an animation at the message queue and run our code before",
+                "For long running tasks with no animation, we can use setImmediate with shim - of the web performance working group of W3C"
+            ]
+        }],
+        [{
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/4103436/3701c21c-315e-11e4-9980-6c46a0f5bfea.png",
+                "style": "position: absolute; width: 869px; height: 488px; z-index: 2; left: 100px; top: 80px; max-height: none; max-width: none;"
+            }
+        }, {
+            "name": "notes",
+            "value": [
+                "But today we have GHz CPU's",
+                "This is why we need other alternatives",
+                "For animations, we can use CSS transitions and animations",
+                "OR, requestAnimationFrame which allows us to schedule an animation at the message queue and run our code before",
+                "For long running tasks with no animation, we can use setImmediate with shim - of the web performance working group of W3C"
+            ]
+        }],
+        [{
+            "name": "img",
+            "attributes": {
+                "src": "https://cloud.githubusercontent.com/assets/3624786/4103438/692c93de-315e-11e4-8229-3c69994ac3fb.png",
+                "style": "position: absolute; width: 869px; height: 488px; z-index: 2; left: 100px; top: 80px; max-height: none; max-width: none;"
+            }
+        }, {
+            "name": "notes",
+            "value": [
+                "But today we have GHz CPU's",
+                "This is why we need other alternatives",
+                "For animations, we can use CSS transitions and animations",
+                "OR, requestAnimationFrame which allows us to schedule an animation at the message queue and run our code before",
+                "For long running tasks with no animation, we can use setImmediate with shim - of the web performance working group of W3C"
+            ]
+        }],
+        [{
+            "name": "h3",
+            "value": "Meet <a href=\"https://dvcs.w3.org/hg/webperf/raw-file/tip/specs/setImmediate/Overview.html#sec-efficient-script-yielding\" target=\"_blank\">setImmediate</a>"
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 899px; height: 358px; max-height: none; max-width: none; left: 30px; top: 110px; z-index: 6;"
+            },
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "//itkoren.github.io/egist/?data-gist-id=9869038&amp;data-gist-file=.18.async.long.running.js",
+                    "class": "fragment",
+                    "data-fragment-index": "0",
+                    "style": "width: 100%; height: 100%;"
+                }
+            }]
+        }, {
+            "name": "notes",
+            "value": [
+                "Lets see how we can use it to make our code async",
+                "",
+                "One more important optimization note: anonymous functions as arguments cannot be optimized by V8",
+                "For animations, we can use CSS transitions and animations",
+                "OR, requestAnimationFrame which allows us to schedule an animation at the message queue and run our code before",
+                "For long running tasks with no animation, we can use setImmediate with shim - of the web performance working group of W3C"
+            ]
+        }],
+        [{
+            "name": "div",
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "./immediate.html",
+                    "style": "left:-10px; width: 1064px; height: 682px; max-height: none; max-width: none;"
+                }
+            }]
+        }],
+        [{
+            "name": "h3",
+            "value": "But How???"
+        }, {
+            "name": "notes",
+            "value": [
+                "Only IE10+ supports this since other vendors instruct us to use requestAnimationFrame"
+            ]
+        }],
+        [{
+            "name": "h3",
+            "value": "postMessage to rescue"
+        }, {
+            "name": "notes",
+            "value": [
+                "We can use postMessage to our own window",
+                "This will not use timers and just place the handler to be called in the message queue"
+            ]
+        }],
+        [{
+            "name": "h2",
+            "value": "Wrapping it up!"
+        }, {
+            "name": "div",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 919px; height: 230px; z-index: 4; left: 32px; top: 101px; max-height: none; max-width: none;"
+            },
+            "value": [{
+                "name": "ul",
+                "value": [{
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "0"
+                    },
+                    "value": "Never block the single thread"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "1"
+                    },
+                    "value": "For long running tasks with animations, use css transitions and animations or requestAnimationFrame"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "2"
+                    },
+                    "value": "For long running tasks with no animations, use setTimeout or even better to use setImmediate with shim"
+                }]
+            }]
+        }],
+        [{
             "name": "h2",
             "attributes": {
-                "class": "absolute-element fragment",
-                "data-fragment-index": "0",
-                "style": "position: absolute; width: 856px; height: 65px; z-index: 4; left: 58px; top: 164px;"
+                "class": "absolute-element",
+                "style": "position: absolute; width: 873px; height: 145px; z-index: 4; left: 49px; top: 244px; max-height: none; max-width: none;"
             },
-            "value": "2 B CONTINUED - NEXT WEEK!!!"
+            "value": "THE END - Thanks"
         }]
     ]
 }]
